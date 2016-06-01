@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentFrameworkTest", "PersistentFrameworkTest.csproj", "{65F879F4-81B8-44F1-9074-AF8EF0D462CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Entities", "..\Persistent.Entities\Persistent.Entities.csproj", "{AAB50272-D29A-4085-A9C4-DDE5D86D550E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentManager", "..\..\PersistentManager\PersistentManager.csproj", "{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F879F4-81B8-44F1-9074-AF8EF0D462CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F879F4-81B8-44F1-9074-AF8EF0D462CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F879F4-81B8-44F1-9074-AF8EF0D462CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F879F4-81B8-44F1-9074-AF8EF0D462CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB50272-D29A-4085-A9C4-DDE5D86D550E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB50272-D29A-4085-A9C4-DDE5D86D550E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB50272-D29A-4085-A9C4-DDE5D86D550E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB50272-D29A-4085-A9C4-DDE5D86D550E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

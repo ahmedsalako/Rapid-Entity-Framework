@@ -1,0 +1,165 @@
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+F:\Projects\PersistentFrameworkTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+F:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistableForm.resources
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+D:\Projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistableForm.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistableForm.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistableForm.resources
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+D:\Projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistableForm.resources
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.read.64.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.read.65.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.read.66.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.read.72.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.write.64.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.write.65.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.write.66.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.write.78.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.write.79.tlog
+C:\new-project\2\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\GenerateResource.write.97.tlog
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistableForm.resources
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResGen.read.1.tlog
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\ResGen.write.1.tlog
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+C:\projects\RapidEntity\RapidEntityTest\PersistentFrameworkTest\bin\Debug\demodatabase2.mdb
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\demodatabase2.mdb
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.pdb
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.dll
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.dll
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentManager.pdb
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\Persistent.Entities.pdb
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateCustomer.resources
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.CreateProduct.resources
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.OrderEntry.resources
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistableForm.resources
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.PersistentMDIParent.resources
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.Properties.Resources.resources
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
+C:\projects\Rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csprojResolveAssemblyReference.cache
+C:\projects\Rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache

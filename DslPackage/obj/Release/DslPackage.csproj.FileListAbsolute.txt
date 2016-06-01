@@ -1,0 +1,52 @@
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\CSharp\1033\RapidEntity.zip
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\VisualBasic\1033\RapidEntity.zip
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.pkgdef
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.Data.ConnectionUI.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.VSPackage.resources
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Release\DslPackage.csproj.GenerateResource.Cache
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Release\Commands.cto
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\PersistentManager.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\PersistentManager.pdb
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.Dsl.pdb
+F:\Projects\RapidEntity\DslPackage\bin\Release\CSharp\1033\RapidEntity.zip
+F:\Projects\RapidEntity\DslPackage\bin\Release\VisualBasic\1033\RapidEntity.zip
+F:\Projects\RapidEntity\DslPackage\bin\Release\GeneratedCode\RapidEntitySchema.xsd
+F:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.dll
+F:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.pdb
+F:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.pkgdef
+F:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.Dsl.dll
+F:\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.VisualStudio.Data.dll
+F:\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.Data.ConnectionUI.dll
+F:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.Dsl.pdb
+F:\Projects\RapidEntity\DslPackage\obj\Release\ResolveAssemblyReference.cache
+F:\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.VSPackage.resources
+F:\Projects\RapidEntity\DslPackage\obj\Release\DslPackage.csproj.GenerateResource.Cache
+F:\Projects\RapidEntity\DslPackage\obj\Release\Commands.cto
+F:\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.dll
+F:\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.pdb
+D:\Projects\RapidEntity\DslPackage\bin\Release\CSharp\1033\RapidEntity.zip
+D:\Projects\RapidEntity\DslPackage\bin\Release\VisualBasic\1033\RapidEntity.zip
+D:\Projects\RapidEntity\DslPackage\bin\Release\GeneratedCode\RapidEntitySchema.xsd
+D:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.dll
+D:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.pdb
+D:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.DslPackage.pkgdef
+D:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.Dsl.dll
+D:\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.VisualStudio.Data.dll
+D:\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.Data.ConnectionUI.dll
+D:\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.VisualStudio.Data.xml
+D:\Projects\RapidEntity\DslPackage\bin\Release\Microsoft.Data.ConnectionUI.xml
+D:\Projects\RapidEntity\DslPackage\bin\Release\consist.RapidEntity.Dsl.pdb
+D:\Projects\RapidEntity\DslPackage\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.VSPackage.resources
+D:\Projects\RapidEntity\DslPackage\obj\Release\DslPackage.csproj.GenerateResource.Cache
+D:\Projects\RapidEntity\DslPackage\obj\Release\Commands.cto
+D:\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.dll
+D:\Projects\RapidEntity\DslPackage\obj\Release\consist.RapidEntity.DslPackage.pdb

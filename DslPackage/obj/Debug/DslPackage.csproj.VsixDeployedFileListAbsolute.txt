@@ -1,0 +1,9 @@
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\ItemTemplates\CSharp\1033\\RapidEntity.zip
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\ItemTemplates\VisualBasic\1033\\RapidEntity.zip
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\\consist.RapidEntity.DslPackage.dll
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\\Microsoft.VisualStudio.Data.dll
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\\consist.RapidEntity.DslPackage.pkgdef
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\\extension.vsixmanifest
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\\consist.RapidEntity.DslPackage.pdb
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\\consist.RapidEntity.Dsl.dll
+C:\Users\Sydney\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\consist\Rapid Entity Diagrams\1.0.0.0\\consist.RapidEntity.Dsl.pdb

@@ -1,0 +1,7 @@
+D:\Projects\RapidEntity\Debugging\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\Debugging\bin\Release\Debugging.dll
+D:\Projects\RapidEntity\Debugging\bin\Release\Debugging.pdb
+D:\Projects\RapidEntity\Debugging\bin\Release\PersistentManager.dll
+D:\Projects\RapidEntity\Debugging\bin\Release\PersistentManager.pdb
+D:\Projects\RapidEntity\Debugging\obj\Release\Debugging.dll
+D:\Projects\RapidEntity\Debugging\obj\Release\Debugging.pdb

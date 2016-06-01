@@ -1,0 +1,50 @@
+D:\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+D:\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+D:\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+D:\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+D:\Projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+D:\Projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+D:\Projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+D:\Projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+D:\Projects\rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\ResolveAssemblyReference.cache
+C:\new-project\2\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
+C:\projects\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+C:\projects\RapidEntity\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+C:\projects\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+C:\projects\RapidEntity\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+C:\projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+C:\projects\RapidEntity\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
+C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
+C:\projects\Rapidentityframework\RapidEntityTest\RapidAsService\bin\RapidAsService.dll.config
+C:\projects\Rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.csprojResolveAssemblyReference.cache

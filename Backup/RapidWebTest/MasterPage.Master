@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="RapidWebTest.MasterPage2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1
+        {
+            height: 36px;
+            width: 698px;
+        }
+        .style1
+        {
+            height: 34px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .style2
+        {
+            height: 120px;
+        }
+        .style3
+        {
+            width: 118px;
+        }
+    </style>
+</head>
+<body bgcolor="#c0c0c0">
+    <form id="form1" runat="server">
+    <div>
+            <table style="height: 171px; width: 594px;" bgcolor="White" align="center">
+                <tr>
+                    <td class="style3" rowspan="4" valign="top">
+                        <table style="width:102%;">
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink1" runat="server" 
+                                        NavigateUrl="~/CreateProduct.aspx">Create 
+                                    Product</asp:HyperLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink2" runat="server" 
+                                        NavigateUrl="~/CreateCustomer.aspx">Create 
+                                    Customer</asp:HyperLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Purchase.aspx">Purchase</asp:HyperLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/ShowAll.aspx">Show 
+                                    All</asp:HyperLink>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="style1">
+                        Persistent Framework Demo 1.0.</td>
+                </tr>
+                <tr>
+                    <td class="style2" valign="top">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        Sample Created By Ahmed Salako. 2008.</td>
+                </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

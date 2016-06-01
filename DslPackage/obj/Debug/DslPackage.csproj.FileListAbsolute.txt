@@ -1,0 +1,184 @@
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.VSPackage.resources
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Debug\Commands.cto
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+F:\Projects\RapidEntity\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+F:\Projects\RapidEntity\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+F:\Projects\RapidEntity\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+F:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+F:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+F:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+F:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.Dsl.dll
+F:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+F:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+F:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.xml
+F:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.xml
+F:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.Dsl.pdb
+F:\Projects\RapidEntity\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.VSPackage.resources
+F:\Projects\RapidEntity\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+F:\Projects\RapidEntity\DslPackage\obj\Debug\Commands.cto
+F:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+F:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.VSPackage.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\obj\Debug\Commands.cto
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+D:\Projects\RapidEntity\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+D:\Projects\RapidEntity\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+D:\Projects\RapidEntity\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+D:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+D:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+D:\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+D:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+D:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.xml
+D:\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.xml
+D:\Projects\RapidEntity\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.VSPackage.resources
+D:\Projects\RapidEntity\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+D:\Projects\RapidEntity\DslPackage\obj\Debug\Commands.cto
+D:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+D:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.xml
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.xml
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.VSPackage.resources
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.ImportForm.resources
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.MainPanel.resources
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectConnectionPanel.resources
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectTablesPanel.resources
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\Commands.cto
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+D:\Projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.Dsl.dll
+D:\Projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.xml
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.xml
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.VSPackage.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.ImportForm.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.MainPanel.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectConnectionPanel.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectTablesPanel.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\Commands.cto
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.VSPackage.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.ImportForm.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.MainPanel.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectConnectionPanel.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectTablesPanel.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\Commands.cto
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+D:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.ImportForm.resources
+D:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.MainPanel.resources
+D:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectConnectionPanel.resources
+D:\Projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectTablesPanel.resources
+C:\projects\RapidEntity\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+C:\projects\RapidEntity\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+C:\projects\RapidEntity\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+C:\projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+C:\projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\projects\RapidEntity\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.vsix
+C:\projects\RapidEntity\DslPackage\bin\Debug\extension.vsixmanifest
+C:\projects\RapidEntity\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\projects\RapidEntity\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\projects\RapidEntity\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\RapidEntity\DslPackage\obj\Debug\VSPackage.resources
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.ImportForm.resources
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.MainPanel.resources
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectConnectionPanel.resources
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectTablesPanel.resources
+C:\projects\RapidEntity\DslPackage\obj\Debug\GenerateResource.read.1.tlog
+C:\projects\RapidEntity\DslPackage\obj\Debug\GenerateResource.write.1.tlog
+C:\projects\RapidEntity\DslPackage\obj\Debug\Commands.cto
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\projects\RapidEntity\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.latest.pkgdef
+C:\projects\RapidEntity\DslPackage\obj\Debug\extension.vsixmanifest
+C:\projects\rapidentityframework\DslPackage\bin\Debug\CSharp\1033\RapidEntity.zip
+C:\projects\rapidentityframework\DslPackage\bin\Debug\VisualBasic\1033\RapidEntity.zip
+C:\projects\rapidentityframework\DslPackage\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.dll
+C:\projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pdb
+C:\projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\projects\rapidentityframework\DslPackage\bin\Debug\consist.RapidEntity.DslPackage.vsix
+C:\projects\rapidentityframework\DslPackage\bin\Debug\extension.vsixmanifest
+C:\projects\rapidentityframework\DslPackage\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\projects\rapidentityframework\DslPackage\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\projects\rapidentityframework\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\rapidentityframework\DslPackage\obj\Debug\VSPackage.resources
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.ImportForm.resources
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.MainPanel.resources
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectConnectionPanel.resources
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.Wizards.ImportWiz.SelectTablesPanel.resources
+C:\projects\rapidentityframework\DslPackage\obj\Debug\GenerateResource.read.1.tlog
+C:\projects\rapidentityframework\DslPackage\obj\Debug\GenerateResource.write.1.tlog
+C:\projects\rapidentityframework\DslPackage\obj\Debug\Commands.cto
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.dll
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pdb
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.pkgdef
+C:\projects\rapidentityframework\DslPackage\obj\Debug\consist.RapidEntity.DslPackage.latest.pkgdef
+C:\projects\rapidentityframework\DslPackage\obj\Debug\extension.vsixmanifest
+C:\projects\rapidentityframework\DslPackage\obj\Debug\VSCT.read.1.tlog
+C:\projects\rapidentityframework\DslPackage\obj\Debug\VSCT.write.1.tlog
+C:\projects\rapidentityframework\DslPackage\obj\Debug\VSPackage.resources.original
+C:\projects\rapidentityframework\DslPackage\obj\Debug\CtoResourceMerger.cache

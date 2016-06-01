@@ -1,0 +1,37 @@
+﻿<#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\Dsl\DslDefinition.dsl'" #>
+<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".vsixmanifest" #>
+<#
+  int localeId = 1033;
+#>
+<?xml version="1.0" encoding="utf-8"?>
+<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="<#= this.Dsl.PackageGuid #>">
+    <Name><#= this.Dsl.DisplayName #></Name>
+    <Author><#= this.Dsl.CompanyName #></Author>
+    <Version><#= this.Dsl.MajorVersion #>.<#= this.Dsl.MinorVersion #>.<#= this.Dsl.Build #>.<#= this.Dsl.Revision #></Version>
+    <Description><#= this.Dsl.Description #></Description>
+    <Locale><#= localeId.ToString() #></Locale>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Pro</Edition>
+        <Edition>VST_All</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References/>
+  <Content>
+    <!-- "Dsl", "DslPackage" represent the VS Project names 
+          They would need to be updated if those project names are changed in the VS Solution -->
+    <VsPackage>|DslPackage;PkgdefProjectOutputGroup|</VsPackage>
+    <MefComponent>|Dsl|</MefComponent>
+    <MefComponent>|DslPackage|</MefComponent>
+    <!-- Custom extensions should come here (and in the source.extension.tt file otherwise
+         it will be overriden next time the template are transformed:
+         For instance:
+         
+             <CustomExtension Type="dll">Fabrikam.MyFavoriteLibrary</CustomExtension>
+    -->
+  </Content>
+</Vsix>

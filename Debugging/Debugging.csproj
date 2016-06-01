@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B61217F4-D502-40BF-8C82-B9975508BCF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Debugging</RootNamespace>
+    <AssemblyName>Debugging</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PersistentManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=739e2388dab3dc7f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PersistentManager\bin\Debug\PersistentManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GeneratedCode\Address.cs" />
+    <Compile Include="GeneratedCode\Country.cs" />
+    <Compile Include="GeneratedCode\DiscJockey.cs" />
+    <Compile Include="GeneratedCode\DJBooking.cs" />
+    <Compile Include="GeneratedCode\DJRadioStation.cs" />
+    <Compile Include="GeneratedCode\Genre.cs" />
+    <Compile Include="GeneratedCode\MasterUser.cs" />
+    <Compile Include="GeneratedCode\Performance.cs" />
+    <Compile Include="GeneratedCode\Photo.cs" />
+    <Compile Include="GeneratedCode\PhotoGroup.cs" />
+    <Compile Include="GeneratedCode\RecordLabel.cs" />
+    <Compile Include="GeneratedCode\SubscriptionType.cs" />
+    <Compile Include="GeneratedCode\Sysdiagram.cs" />
+    <Compile Include="GeneratedCode\UserLogin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Dsl\GeneratedCode\RapidEntitySchema.xsd">
+      <Link>RapidEntitySchema.xsd</Link>
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="RapidEntity2.rapd" />
+    <None Include="RapidEntity2.rapd.diagram">
+      <DependentUpon>RapidEntity2.rapd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GeneratedCode\Address-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\Country-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\DiscJockey-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\DJBooking-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\DJRadioStation-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\Genre-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\MasterUser-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\Performance-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\Photo-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\PhotoGroup-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\RecordLabel-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\SubscriptionType-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\Sysdiagram-rapid.xml" />
+    <EmbeddedResource Include="GeneratedCode\UserLogin-rapid.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

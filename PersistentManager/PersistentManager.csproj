@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PersistentManager</RootNamespace>
+    <AssemblyName>PersistentManager</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>PersistentManager.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cache\CacheObject.cs" />
+    <Compile Include="Cache\TransactionalCache.cs" />
+    <Compile Include="Collections\IInternalList.cs" />
+    <Compile Include="Contracts\IEntityManager.cs" />
+    <Compile Include="DefaultConfiguration.cs" />
+    <Compile Include="Descriptors\ChangeCatalog.cs" />
+    <Compile Include="Contracts\IChangeCatalog.cs" />
+    <Compile Include="Descriptors\ScopeContext.cs" />
+    <Compile Include="EntityManagers\Transaction.cs" />
+    <Compile Include="Ghosting\IGhostableProxy.cs" />
+    <Compile Include="Mapping\XmlEntityMapping.cs" />
+    <Compile Include="Mapping\Serialization\UTF8StringWriter.cs" />
+    <Compile Include="Mapping\Serialization\XmlMappingSerializer.cs" />
+    <Compile Include="Metadata\ExtractionRules\AbstractExtraction.cs" />
+    <Compile Include="Metadata\ExtractionRules\CompositeKeyExtraction.cs" />
+    <Compile Include="Metadata\ExtractionRules\EmbeddedEntityExtractionPolicy.cs" />
+    <Compile Include="Metadata\ExtractionRules\FieldExtraction.cs" />
+    <Compile Include="Metadata\ExtractionRules\InterceptorExtractionPolicy.cs" />
+    <Compile Include="Metadata\ExtractionRules\ManyToManyExtractionPolicy.cs" />
+    <Compile Include="Metadata\ExtractionRules\ManyToOneExtractionPolicy.cs" />
+    <Compile Include="Metadata\ExtractionRules\OneToManyExtractionPolicy.cs" />
+    <Compile Include="Metadata\ExtractionRules\OneToOneExtractionPolicy.cs" />
+    <Compile Include="Metadata\ExtractionRules\PrimaryKeyFieldExtraction.cs" />
+    <Compile Include="Metadata\ExtractionRules\DiscriminationExtraction.cs" />
+    <Compile Include="Metadata\ExtractionRules\RelationshipExtraction.cs" />
+    <Compile Include="Metadata\ExtractionRules\TablePerTypeExtraction.cs" />
+    <Compile Include="Metadata\XmlMapping.cs" />
+    <Compile Include="Query\Keywords\SelectConstraints.cs" />
+    <Compile Include="Query\Processors\Expressions\AbstractExpression.cs" />
+    <Compile Include="Query\Processors\AliasApplierProcessor.cs" />
+    <Compile Include="Query\Processors\CompositeKeyProcessor.cs" />
+    <Compile Include="Query\Processors\CriteriaScalarProcessor.cs" />
+    <Compile Include="Query\Processors\DiscriminatorProcessor.cs" />
+    <Compile Include="Query\Processors\EntitySplitMergerProcessor.cs" />
+    <Compile Include="Query\Processors\ExcludeCriteriaProcessor.cs" />
+    <Compile Include="Query\Processors\Expressions\IPathExpression.cs" />
+    <Compile Include="Query\Processors\PathExpressionProcessor.cs" />
+    <Compile Include="Query\Processors\RelationshipReferenceProcessor.cs" />
+    <Compile Include="Query\Processors\RemoveSelfReferenceProcessor.cs" />
+    <Compile Include="Query\Processors\SelectCriteriaInjectorProcessor.cs" />
+    <Compile Include="Query\Processors\SequentialProcessor.cs" />
+    <Compile Include="Query\QueryEngine\Database\FromClauseSubquery.cs" />
+    <Compile Include="Runtime\SnapShot.cs" />
+    <Compile Include="Runtime\RuntimeTransactionScope.cs" />
+    <Compile Include="Services\Interfaces\IDatabaseProvider.cs" />
+    <Compile Include="Services\Interfaces\ICacheObject.cs" />
+    <Compile Include="Cache\InternalSharedMemory.cs" />
+    <Compile Include="Cache\KeyGenerator.cs" />
+    <Compile Include="Cache\RREChangeListeners.cs" />
+    <Compile Include="Collections\FrameworkList.cs" />
+    <Compile Include="Collections\FrameworkListEnumerator.cs" />
+    <Compile Include="Collections\IFrameworkList.cs" />
+    <Compile Include="ConfigurationBase.cs" />
+    <Compile Include="Delegates\TypeDefination.cs" />
+    <Compile Include="Descriptors\DirtyTrail.cs" />
+    <Compile Include="Query\CriteriaAPI\CompositeCriteria.cs" />
+    <Compile Include="Query\CriteriaAPI\CompositeValue.cs" />
+    <Compile Include="Descriptors\IParameter.cs" />
+    <Compile Include="Metadata\MethodMetadata.cs" />
+    <Compile Include="Descriptors\NameResolver.cs" />
+    <Compile Include="Descriptors\NamingStrategy.cs" />
+    <Compile Include="Descriptors\ProviderDescriptor.cs" />
+    <Compile Include="Descriptors\QueryFunction.cs" />
+    <Compile Include="Descriptors\QueryParameter.cs" />
+    <Compile Include="EntityManagers\GarbageCollector.cs" />
+    <Compile Include="GAC\GacLoader.cs" />
+    <Compile Include="Ghosting\CallStack.cs" />
+    <Compile Include="Ghosting\ReflectionManager.cs" />
+    <Compile Include="Initializers\LazyLoadBase.cs" />
+    <Compile Include="Initializers\LazyCollectionHandler.cs" />
+    <Compile Include="Initializers\OneToOneLazyHandler.cs" />
+    <Compile Include="Query\CriteriaAPI\CriteriaExtension.cs" />
+    <Compile Include="Query\CriteriaAPI\Interfaces\ICompositeCriterion.cs" />
+    <Compile Include="Linq\ExpressionCommands\AggregateFunctionCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\CommandContext.cs" />
+    <Compile Include="Linq\ExpressionCommands\FunctionCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\ExpressionCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\ExpressionCriteria.cs" />
+    <Compile Include="Linq\ExpressionCommands\ExpressionReader.cs" />
+    <Compile Include="Linq\ExpressionCommands\GroupByCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\JoinCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\OrderByCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\ReverseCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\SelectCommand.cs" />
+    <Compile Include="Linq\ExpressionCommands\SelectManyComand.cs" />
+    <Compile Include="Linq\ExpressionCommands\WhereCommand.cs" />
+    <Compile Include="Linq\ExpressionModifiers\BinaryEvaluator.cs" />
+    <Compile Include="Linq\ExpressionModifiers\CriteriaStack.cs" />
+    <Compile Include="Linq\ExpressionModifiers\LINQExtensions.cs" />
+    <Compile Include="Linq\ExpressionModifiers\Normalizer.cs" />
+    <Compile Include="Linq\ExpressionModifiers\QueryHandler.cs" />
+    <Compile Include="Linq\ExpressionModifiers\ExpressionHandler.cs" />
+    <Compile Include="Linq\ExpressionModifiers\Evaluator.cs" />
+    <Compile Include="Linq\ExpressionModifiers\SubtreeEvaluator.cs" />
+    <Compile Include="Linq\ExpressionVisitor.cs" />
+    <Compile Include="Linq\LinqToObjectSimulator.cs" />
+    <Compile Include="Linq\ExpressionModifiers\Nominator.cs" />
+    <Compile Include="Linq\QueryTranslator.cs" />
+    <Compile Include="Linq\RapidLinqQueryable.cs" />
+    <Compile Include="Linq\RapidLinqQueryProvider.cs" />
+    <Compile Include="Linq\RapidQueryProviderBase.cs" />
+    <Compile Include="Mapping\Embedded.cs" />
+    <Compile Include="Mapping\EmbeddedEntity.cs" />
+    <Compile Include="Mapping\Events\ActionEventArgs.cs" />
+    <Compile Include="Mapping\IManyBasedRelation.cs" />
+    <Compile Include="Mapping\InterceptorAttribute.cs" />
+    <Compile Include="Mapping\IOneBasedRelation.cs" />
+    <Compile Include="Mapping\OnUpdate.cs" />
+    <Compile Include="Metadata\IMetadataDescriptor.cs" />
+    <Compile Include="Metadata\MappingBase.cs" />
+    <Compile Include="Metadata\MetadataValidation.cs" />
+    <Compile Include="Metadata\JoinMetadata.cs" />
+    <Compile Include="Provider\DatabaseProvider.cs" />
+    <Compile Include="Provider\Db2DatabaseProvider.cs" />
+    <Compile Include="Provider\Functions\Db2Functions.cs" />
+    <Compile Include="Provider\Functions\MSAccessFunctions.cs" />
+    <Compile Include="Provider\Functions\MySqlFunctions.cs" />
+    <Compile Include="Provider\Functions\OracleFunctions.cs" />
+    <Compile Include="Provider\Functions\ProviderFunctions.cs" />
+    <Compile Include="Provider\Functions\SQLLite3Functions.cs" />
+    <Compile Include="Provider\Functions\SqlServerFunctions.cs" />
+    <Compile Include="Provider\InternalReader.cs" />
+    <Compile Include="Provider\MySqlProvider.cs" />
+    <Compile Include="Provider\OracleClientProvider.cs" />
+    <Compile Include="Provider\SQLLiteDatabaseProvider.cs" />
+    <Compile Include="Query\CriteriaAPI\Interfaces\ICriteriaCloneable.cs" />
+    <Compile Include="Query\DeferedExecution.cs" />
+    <Compile Include="Query\Keywords\AS.cs" />
+    <Compile Include="Query\Keywords\DateTimeConstraints.cs" />
+    <Compile Include="Query\Keywords\Delete.cs" />
+    <Compile Include="Query\Keywords\DeleteWhere.cs" />
+    <Compile Include="Query\Keywords\DML.cs" />
+    <Compile Include="Query\Keywords\Equals.cs" />
+    <Compile Include="Query\Keywords\ForEach.cs" />
+    <Compile Include="Query\Keywords\FunctionalKeywords.cs" />
+    <Compile Include="Query\Keywords\IEnumerableConstraints.cs" />
+    <Compile Include="Query\Keywords\Insert.cs" />
+    <Compile Include="Query\Keywords\Keyword.cs" />
+    <Compile Include="Query\Keywords\ON.cs" />
+    <Compile Include="Query\Keywords\Constraints.cs" />
+    <Compile Include="Query\Keywords\StringConstraints.cs" />
+    <Compile Include="Query\Keywords\SyntaxExecution.cs" />
+    <Compile Include="Query\Keywords\Update.cs" />
+    <Compile Include="Query\Keywords\Values.cs" />
+    <Compile Include="Query\Projections\ClassResultHandler.cs" />
+    <Compile Include="Query\Projections\ProjectionBinder.cs" />
+    <Compile Include="Query\Projections\PropertyBound.cs" />
+    <Compile Include="Query\Projections\AbstractResultHandler.cs" />
+    <Compile Include="Query\Projections\ReturnTypes\CompilerGenerated.cs" />
+    <Compile Include="Query\AliasBuilder.cs" />
+    <Compile Include="Query\QueryEngine\Database\ActionBase.cs" />
+    <Compile Include="Query\QueryEngine\Database\AliasAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\ConditionAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\ExecuteCreateAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\ExecuteDeleteAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\ExecuteUpdateAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\FromAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\GroupByAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\JoinEmbeddedAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\OrderByAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\SelectAction.cs" />
+    <Compile Include="Query\QueryEngine\Database\SelectFunctionAction.cs" />
+    <Compile Include="Query\QueryEngine\DataStoreQuery.cs" />
+    <Compile Include="Query\QueryEngine\ContextData.cs" />
+    <Compile Include="Query\QueryEngine\IQueryBuilderStrategy.cs" />
+    <Compile Include="Query\QueryEngine\RDBMSDataStore.cs" />
+    <Compile Include="Query\Processors\Expressions\PathExpressionFactory.cs" />
+    <Compile Include="Query\Processors\Expressions\PathExpression.cs" />
+    <Compile Include="Query\Keywords\This.cs" />
+    <Compile Include="Query\SQLBuilderHelper.cs" />
+    <Compile Include="Query\Sql\Dialect.cs" />
+    <Compile Include="Query\Sql\QueryExpression.cs" />
+    <Compile Include="Query\Sql\SelectExpression.cs" />
+    <Compile Include="Query\Sql\SQLAssembler.cs" />
+    <Compile Include="Query\Sql\SQLTokenizer.cs" />
+    <Compile Include="Query\Sql\UpdateExpression.cs" />
+    <Compile Include="Query\XmlQueryAPI\RapidXmlSchema.cs">
+      <DependentUpon>RapidXmlSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Query\XmlQueryAPI\XmlQueryValidator.cs" />
+    <Compile Include="Runtime\APIs\Xml\EntityXMLSerializer.cs" />
+    <Compile Include="Runtime\APIs\Xml\UTF8Encoder.cs" />
+    <Compile Include="Runtime\PersistenceInterceptor.cs" />
+    <Compile Include="Runtime\RuntimeRegistry.cs" />
+    <Compile Include="Services\Interfaces\ICacheService.cs" />
+    <Compile Include="Services\Interfaces\IDiscoverable.cs" />
+    <Compile Include="Services\Interfaces\IMetadataService.cs" />
+    <Compile Include="Services\Interfaces\ISharedMemoryStore.cs" />
+    <Compile Include="Services\Interfaces\ITransactionalCache.cs" />
+    <Compile Include="Services\ServiceLocator.cs" />
+    <Compile Include="Util\DynamicCast.cs" />
+    <Compile Include="Exceptions\EntityManagerException\CascadeException.cs" />
+    <Compile Include="Exceptions\EntityManagerException\EntityLoadException.cs" />
+    <Compile Include="Exceptions\EntityManagerException\EntityPersistException.cs" />
+    <Compile Include="Exceptions\EntityManagerException\PersistCommitException.cs" />
+    <Compile Include="Exceptions\EntityManagerException\PersistentException.cs" />
+    <Compile Include="Exceptions\Throwable.cs" />
+    <Compile Include="Ghosting\Constructor.cs" />
+    <Compile Include="Ghosting\Event\GhostPropertyChangeEventArgs.cs" />
+    <Compile Include="Ghosting\Event\PropertyChangedEmiter.cs" />
+    <Compile Include="Ghosting\Ghost.cs" />
+    <Compile Include="Ghosting\GhostAssemblyBuilder.cs" />
+    <Compile Include="Ghosting\Relationship.cs" />
+    <Compile Include="Mapping\CompositeKey.cs" />
+    <Compile Include="Mapping\DiscriminatorValue.cs" />
+    <Compile Include="Mapping\Entity.cs" />
+    <Compile Include="Mapping\Field.cs" />
+    <Compile Include="Mapping\RelationJoin.cs" />
+    <Compile Include="Mapping\Key.cs" />
+    <Compile Include="Mapping\ManyToMany.cs" />
+    <Compile Include="Mapping\ManyToOne.cs" />
+    <Compile Include="Mapping\MappingDefinations.cs" />
+    <Compile Include="Mapping\OneToMany.cs" />
+    <Compile Include="Mapping\OneToOne.cs" />
+    <Compile Include="Mapping\IRelationalAttribute.cs" />
+    <Compile Include="Mapping\Table.cs" />
+    <Compile Include="Mapping\TableSchema.cs" />
+    <Compile Include="ConfigurationFactory.cs" />
+    <Compile Include="Metadata\PropertyMetadata.cs" />
+    <Compile Include="Descriptors\EntityRelation.cs" />
+    <Compile Include="Metadata\EntityMetadata.cs" />
+    <Compile Include="EntityManagers\EntityManager.cs" />
+    <Compile Include="Constants\Definations.cs" />
+    <Compile Include="IConfiguration.cs" />
+    <Compile Include="Initializers\Interfaces\ILazyLoader.cs" />
+    <Compile Include="Initializers\ManyToManyLazyHandler.cs" />
+    <Compile Include="Initializers\OneToManyLazyHandler.cs" />
+    <Compile Include="Metadata\DataType.cs" />
+    <Compile Include="Metadata\MetaDataManager.cs" />
+    <Compile Include="Provider\OleDbProvider.cs" />
+    <Compile Include="Query\CriteriaAPI\Criteria.cs" />
+    <Compile Include="Query\Projections\Interfaces\IQueryResult.cs" />
+    <Compile Include="Query\Keywords\Aggregate.cs" />
+    <Compile Include="Query\Keywords\And.cs" />
+    <Compile Include="Query\Keywords\From.cs" />
+    <Compile Include="Query\Keywords\GroupBy.cs" />
+    <Compile Include="Query\Keywords\In.cs" />
+    <Compile Include="Query\Keywords\JOIN.cs" />
+    <Compile Include="Query\Keywords\OR.cs" />
+    <Compile Include="Query\Keywords\OrderBy.cs" />
+    <Compile Include="Query\Keywords\Select.cs" />
+    <Compile Include="Query\Keywords\SyntaxContainer.cs" />
+    <Compile Include="Query\Keywords\Where.cs" />
+    <Compile Include="Cache\CacheService.cs" />
+    <Compile Include="Provider\ProviderAllocator.cs" />
+    <Compile Include="Query\Projections\QueryResult.cs" />
+    <Compile Include="Ghosting\GhostGenerator.cs" />
+    <Compile Include="Provider\SqlServerProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query\Sql\QueryContext.cs" />
+    <Compile Include="Runtime\SessionRuntime.cs" />
+    <Compile Include="Collections\ConcreteCollectionDiscovery.cs" />
+    <Compile Include="Util\ArrayUtil.cs" />
+    <Compile Include="Util\Extensions.cs" />
+    <Compile Include="Util\Null.cs" />
+    <Compile Include="Util\StringUtil.cs" />
+    <Compile Include="WebConfigurationFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PersistentManager.snk" />
+    <EmbeddedResource Include="Query\XmlQueryAPI\RapidXmlSchema.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GAC\DatabaseProviders.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GAC\MySql.Data.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Log\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Note.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

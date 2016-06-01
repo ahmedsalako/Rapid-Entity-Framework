@@ -1,0 +1,42 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" language="C#" hostspecific="true" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="consist.RapidEntity.Customizations" #>
+<#@ import namespace = "System.Text.RegularExpressions" #>
+<#@ output extension=".cs" #>
+<#@ RapidEntity processor="RapidEntityDirectiveProcessor" requires="fileName='7B19C75F-062B-41bd-A605-AAF62DC39D5D'"  #>
+<#
+    foreach(ModelType type in this.ModelRoot.Types)
+    {
+        if(type is ModelClass)
+        {
+            ModelClass classType = (ModelClass)type;
+
+            string className = MakeValidName(type.Name);
+            
+            if (!string.IsNullOrEmpty(className))
+            {
+#>
+<#=           DomainEntityGenerator.GenerateEntities(classType, "7D7940CA-6FAF-4f99-AC21-9605D6E0C196")#>
+<#
+            }
+          SaveOutput(className + ".cs");
+        }        
+    }
+#>
+<#+
+private static string MakeValidName(string typeName)
+{
+    //Use the System.Text.RegularExpressions namespace specified in the import directive
+    //Remove non-alpha characters
+    string fixedName = Regex.Replace(typeName,"[^a-zA-Z]","");        return fixedName;
+}
+#>
+<#+  void SaveOutput(string outputFileName)  
+     {      
+         string templateDirectory = @"985B12A5-766B-4cdf-934F-3B6241960E9B";
+         string outputFilePath = Path.Combine(templateDirectory, outputFileName);
+         File.WriteAllText(outputFilePath, this.GenerationEnvironment.ToString()); 
+         
+         this.GenerationEnvironment.Remove(0, this.GenerationEnvironment.Length);  
+      }
+#>

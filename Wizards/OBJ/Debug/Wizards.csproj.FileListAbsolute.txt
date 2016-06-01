@@ -1,0 +1,5 @@
+C:\Documents and Settings\ahmed.salako\Desktop\projects\RapidEntity\Wizards\bin\Debug\Wizards.dll
+C:\Documents and Settings\ahmed.salako\Desktop\projects\RapidEntity\Wizards\bin\Debug\Wizards.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\projects\RapidEntity\Wizards\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ahmed.salako\Desktop\projects\RapidEntity\Wizards\obj\Debug\Wizards.dll
+C:\Documents and Settings\ahmed.salako\Desktop\projects\RapidEntity\Wizards\obj\Debug\Wizards.pdb

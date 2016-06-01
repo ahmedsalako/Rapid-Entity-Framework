@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelRoot dslVersion="1.0.0.0" name="" xmlns="http://schemas.microsoft.com/dsltools/RapidEntity">
+  <types>
+    <modelClass name="Categories" tableName="Categories">
+      <fields>
+        <field name="CategoryName" type="System.String" columnName="CategoryName" allowNull="false" precision="255" scale="255" />
+        <field name="Description" type="System.String" columnName="Description" allowNull="true" precision="255" scale="255" />
+        <field name="Picture" type="System.Byte[]" columnName="Picture" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="CategoryID" type="System.Int32" columnName="CategoryID" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Products" type="System.Int32" columnName="CategoryID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="CategoryID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="CustomerCustomerDemo" tableName="CustomerCustomerDemo">
+      <manyToOnelTargets>
+        <manyToOne Id="93bd59b3-5d9d-4793-96b0-a436bc953283" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="CustomerTypeID" referenceEntity="CustomerCustomerDemo" ownerEntity="CustomerDemographics" relationalColumn="CustomerTypeID">
+          <modelClassMoniker name="//CustomerDemographics" />
+        </manyToOne>
+        <manyToOne Id="63cabd4c-f3cd-4909-853b-6653ab9def61" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="CustomerID" referenceEntity="CustomerCustomerDemo" ownerEntity="Customers" relationalColumn="CustomerID">
+          <modelClassMoniker name="//Customers" />
+        </manyToOne>
+      </manyToOnelTargets>
+      <persistentKeys>
+        <persistentKey name="CustomerID" type="System.String" columnName="CustomerID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+        <persistentKey name="CustomerTypeID" type="System.String" columnName="CustomerTypeID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="CustomerDemographics" type="System.String" columnName="CustomerTypeID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="CustomerTypeID" />
+        <relationship name="Customers" type="System.String" columnName="CustomerID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="CustomerID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="CustomerDemographics" tableName="CustomerDemographics">
+      <fields>
+        <field name="CustomerDesc" type="System.String" columnName="CustomerDesc" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="CustomerTypeID" type="System.String" columnName="CustomerTypeID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="CustomerCustomerDemo" type="System.String" columnName="CustomerTypeID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="CustomerTypeID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="CustomerExtraInfo" tableName="CustomerExtraInfo">
+      <fields>
+        <field name="GrandFatherName" type="System.String" columnName="GrandFatherName" allowNull="false" precision="255" scale="255" />
+        <field name="CustomerId" type="System.String" columnName="CustomerId" allowNull="false" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="Id" type="System.Int32" columnName="Id" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Customers" tableName="Customers">
+      <fields>
+        <field name="CompanyName" type="System.String" columnName="CompanyName" allowNull="false" precision="255" scale="255" />
+        <field name="ContactName" type="System.String" columnName="ContactName" allowNull="true" precision="255" scale="255" />
+        <field name="ContactTitle" type="System.String" columnName="ContactTitle" allowNull="true" precision="255" scale="255" />
+        <field name="Address" type="System.String" columnName="Address" allowNull="true" precision="255" scale="255" />
+        <field name="City" type="System.String" columnName="City" allowNull="true" precision="255" scale="255" />
+        <field name="Region" type="System.String" columnName="Region" allowNull="true" precision="255" scale="255" />
+        <field name="PostalCode" type="System.String" columnName="PostalCode" allowNull="true" precision="255" scale="255" />
+        <field name="Country" type="System.String" columnName="Country" allowNull="true" precision="255" scale="255" />
+        <field name="Phone" type="System.String" columnName="Phone" allowNull="true" precision="255" scale="255" />
+        <field name="Fax" type="System.String" columnName="Fax" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="CustomerID" type="System.String" columnName="CustomerID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="CustomerCustomerDemo" type="System.String" columnName="CustomerID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="CustomerID" />
+        <relationship name="Orders" type="System.String" columnName="CustomerID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="CustomerID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Employees" tableName="Employees">
+      <fields>
+        <field name="LastName" type="System.String" columnName="LastName" allowNull="false" precision="255" scale="255" />
+        <field name="FirstName" type="System.String" columnName="FirstName" allowNull="false" precision="255" scale="255" />
+        <field name="Title" type="System.String" columnName="Title" allowNull="true" precision="255" scale="255" />
+        <field name="TitleOfCourtesy" type="System.String" columnName="TitleOfCourtesy" allowNull="true" precision="255" scale="255" />
+        <field name="BirthDate" type="System.DateTime" columnName="BirthDate" allowNull="true" precision="23" scale="3" />
+        <field name="HireDate" type="System.DateTime" columnName="HireDate" allowNull="true" precision="23" scale="3" />
+        <field name="Address" type="System.String" columnName="Address" allowNull="true" precision="255" scale="255" />
+        <field name="City" type="System.String" columnName="City" allowNull="true" precision="255" scale="255" />
+        <field name="Region" type="System.String" columnName="Region" allowNull="true" precision="255" scale="255" />
+        <field name="PostalCode" type="System.String" columnName="PostalCode" allowNull="true" precision="255" scale="255" />
+        <field name="Country" type="System.String" columnName="Country" allowNull="true" precision="255" scale="255" />
+        <field name="HomePhone" type="System.String" columnName="HomePhone" allowNull="true" precision="255" scale="255" />
+        <field name="Extension" type="System.String" columnName="Extension" allowNull="true" precision="255" scale="255" />
+        <field name="Photo" type="System.Byte[]" columnName="Photo" allowNull="true" precision="255" scale="255" />
+        <field name="Notes" type="System.String" columnName="Notes" allowNull="true" precision="255" scale="255" />
+        <field name="PhotoPath" type="System.String" columnName="PhotoPath" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToOneTargets>
+        <oneToOne Id="c3d47dde-e575-402b-a3fd-7cc603162ff1" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="EmployeeID" referenceEntity="Employees" ownerEntity="Employees" relationColumn="ReportsTo" isImported="false">
+          <modelClassMoniker name="//Employees" />
+        </oneToOne>
+      </oneToOneTargets>
+      <persistentKeys>
+        <persistentKey name="EmployeeID" type="System.Int32" columnName="EmployeeID" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Employees" type="System.Int32" columnName="ReportsTo" allowNull="false" precision="0" scale="0" relationshipType="OneToOne" primaryKeyColumn="EmployeeID" />
+        <relationship name="EmployeeTerritories" type="System.Int32" columnName="EmployeeID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="EmployeeID" />
+        <relationship name="Orders" type="System.Int32" columnName="EmployeeID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="EmployeeID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="EmployeeTerritories" tableName="EmployeeTerritories">
+      <manyToOnelTargets>
+        <manyToOne Id="f647ad06-c8bc-4bf0-86cf-08f5604b4991" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="TerritoryID" referenceEntity="EmployeeTerritories" ownerEntity="Territories" relationalColumn="TerritoryID">
+          <modelClassMoniker name="//Territories" />
+        </manyToOne>
+      </manyToOnelTargets>
+      <oneToManyTargets>
+        <oneToMany Id="02b916d8-4d3b-4137-a0a4-98db58c607a3" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="EmployeeID" referenceEntity="Employees" ownerEntity="EmployeeTerritories" relationColumn="EmployeeID">
+          <modelClassMoniker name="//Employees" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="EmployeeID" type="System.Int32" columnName="EmployeeID" allowNull="false" precision="10" scale="255" isAutoKey="false" />
+        <persistentKey name="TerritoryID" type="System.String" columnName="TerritoryID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Employees" type="System.Int32" columnName="EmployeeID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="EmployeeID" />
+        <relationship name="Territories" type="System.String" columnName="TerritoryID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="TerritoryID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="LittleCustomer" tableName="LittleCustomer">
+      <fields>
+        <field name="FriendlyName" type="System.String" columnName="FriendlyName" allowNull="true" precision="255" scale="255" />
+        <field name="Discriminator" type="System.String" columnName="Discriminator" allowNull="true" precision="255" scale="255" />
+        <field name="Sex" type="System.Int32" columnName="Sex" allowNull="true" precision="10" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="CustomerID" type="System.String" columnName="CustomerID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Order Details" tableName="Order Details">
+      <manyToOnelTargets>
+        <manyToOne Id="d27d71b6-683c-4f2f-bf07-cfa15dd42566" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="OrderID" referenceEntity="Order Details" ownerEntity="Orders" relationalColumn="OrderID">
+          <modelClassMoniker name="//Orders" />
+        </manyToOne>
+        <manyToOne Id="765ebe3d-37f7-430f-b555-9b5a23ebbe31" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="ProductID" referenceEntity="Order Details" ownerEntity="Products" relationalColumn="ProductID">
+          <modelClassMoniker name="//Products" />
+        </manyToOne>
+      </manyToOnelTargets>
+      <fields>
+        <field name="UnitPrice" type="System.Decimal" columnName="UnitPrice" allowNull="false" precision="19" scale="255" />
+        <field name="Quantity" type="System.Int16" columnName="Quantity" allowNull="false" precision="5" scale="255" />
+        <field name="Discount" type="System.Single" columnName="Discount" allowNull="false" precision="7" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="OrderID" type="System.Int32" columnName="OrderID" allowNull="false" precision="10" scale="255" isAutoKey="false" />
+        <persistentKey name="ProductID" type="System.Int32" columnName="ProductID" allowNull="false" precision="10" scale="255" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Orders" type="System.Int32" columnName="OrderID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="OrderID" />
+        <relationship name="Products" type="System.Int32" columnName="ProductID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="ProductID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Orders" tableName="Orders">
+      <manyToOnelTargets>
+        <manyToOne Id="b95a53bc-b5f3-4507-9912-12c4c03ce1ff" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="ShipVia" referenceEntity="Orders" ownerEntity="Shippers" relationalColumn="ShipperID">
+          <modelClassMoniker name="//Shippers" />
+        </manyToOne>
+      </manyToOnelTargets>
+      <fields>
+        <field name="OrderDate" type="System.DateTime" columnName="OrderDate" allowNull="true" precision="23" scale="3" />
+        <field name="RequiredDate" type="System.DateTime" columnName="RequiredDate" allowNull="true" precision="23" scale="3" />
+        <field name="ShippedDate" type="System.DateTime" columnName="ShippedDate" allowNull="true" precision="23" scale="3" />
+        <field name="Freight" type="System.Decimal" columnName="Freight" allowNull="true" precision="19" scale="255" />
+        <field name="ShipName" type="System.String" columnName="ShipName" allowNull="true" precision="255" scale="255" />
+        <field name="ShipAddress" type="System.String" columnName="ShipAddress" allowNull="true" precision="255" scale="255" />
+        <field name="ShipCity" type="System.String" columnName="ShipCity" allowNull="true" precision="255" scale="255" />
+        <field name="ShipRegion" type="System.String" columnName="ShipRegion" allowNull="true" precision="255" scale="255" />
+        <field name="ShipPostalCode" type="System.String" columnName="ShipPostalCode" allowNull="true" precision="255" scale="255" />
+        <field name="ShipCountry" type="System.String" columnName="ShipCountry" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="d667ef82-1d31-4c8f-a09a-2c97e5085904" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="CustomerID" referenceEntity="Customers" ownerEntity="Orders" relationColumn="CustomerID">
+          <modelClassMoniker name="//Customers" />
+        </oneToMany>
+        <oneToMany Id="8639d6a8-7f55-4d87-af69-525247e031fd" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="EmployeeID" referenceEntity="Employees" ownerEntity="Orders" relationColumn="EmployeeID">
+          <modelClassMoniker name="//Employees" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="OrderID" type="System.Int32" columnName="OrderID" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Customers" type="System.String" columnName="CustomerID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="CustomerID" />
+        <relationship name="Employees" type="System.Int32" columnName="EmployeeID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="EmployeeID" />
+        <relationship name="Order Details" type="System.Int32" columnName="OrderID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="OrderID" />
+        <relationship name="Shippers" type="System.Int32" columnName="ShipVia" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="ShipperID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Products" tableName="Products">
+      <manyToOnelTargets>
+        <manyToOne Id="4c38bbf0-a115-478c-932e-12622a95c1df" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="SupplierID" referenceEntity="Products" ownerEntity="Suppliers" relationalColumn="SupplierID">
+          <modelClassMoniker name="//Suppliers" />
+        </manyToOne>
+      </manyToOnelTargets>
+      <fields>
+        <field name="ProductName" type="System.String" columnName="ProductName" allowNull="false" precision="255" scale="255" />
+        <field name="QuantityPerUnit" type="System.String" columnName="QuantityPerUnit" allowNull="true" precision="255" scale="255" />
+        <field name="UnitPrice" type="System.Decimal" columnName="UnitPrice" allowNull="true" precision="19" scale="255" />
+        <field name="UnitsInStock" type="System.Int16" columnName="UnitsInStock" allowNull="true" precision="5" scale="255" />
+        <field name="UnitsOnOrder" type="System.Int16" columnName="UnitsOnOrder" allowNull="true" precision="5" scale="255" />
+        <field name="ReorderLevel" type="System.Int16" columnName="ReorderLevel" allowNull="true" precision="5" scale="255" />
+        <field name="Discontinued" type="System.Boolean" columnName="Discontinued" allowNull="false" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="d99177a0-db4f-4fb1-9f53-88859a9a3a11" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="CategoryID" referenceEntity="Categories" ownerEntity="Products" relationColumn="CategoryID">
+          <modelClassMoniker name="//Categories" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="ProductID" type="System.Int32" columnName="ProductID" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Categories" type="System.Int32" columnName="CategoryID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="CategoryID" />
+        <relationship name="Order Details" type="System.Int32" columnName="ProductID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="ProductID" />
+        <relationship name="Suppliers" type="System.Int32" columnName="SupplierID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="SupplierID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Region" tableName="Region">
+      <fields>
+        <field name="RegionDescription" type="System.String" columnName="RegionDescription" allowNull="false" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="RegionID" type="System.Int32" columnName="RegionID" allowNull="false" precision="10" scale="255" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Territories" type="System.Int32" columnName="RegionID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="RegionID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Shippers" tableName="Shippers">
+      <fields>
+        <field name="CompanyName" type="System.String" columnName="CompanyName" allowNull="false" precision="255" scale="255" />
+        <field name="Phone" type="System.String" columnName="Phone" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="ShipperID" type="System.Int32" columnName="ShipperID" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Orders" type="System.Int32" columnName="ShipVia" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="ShipperID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Suppliers" tableName="Suppliers">
+      <fields>
+        <field name="CompanyName" type="System.String" columnName="CompanyName" allowNull="false" precision="255" scale="255" />
+        <field name="ContactName" type="System.String" columnName="ContactName" allowNull="true" precision="255" scale="255" />
+        <field name="ContactTitle" type="System.String" columnName="ContactTitle" allowNull="true" precision="255" scale="255" />
+        <field name="Address" type="System.String" columnName="Address" allowNull="true" precision="255" scale="255" />
+        <field name="City" type="System.String" columnName="City" allowNull="true" precision="255" scale="255" />
+        <field name="Region" type="System.String" columnName="Region" allowNull="true" precision="255" scale="255" />
+        <field name="PostalCode" type="System.String" columnName="PostalCode" allowNull="true" precision="255" scale="255" />
+        <field name="Country" type="System.String" columnName="Country" allowNull="true" precision="255" scale="255" />
+        <field name="Phone" type="System.String" columnName="Phone" allowNull="true" precision="255" scale="255" />
+        <field name="Fax" type="System.String" columnName="Fax" allowNull="true" precision="255" scale="255" />
+        <field name="HomePage" type="System.String" columnName="HomePage" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="SupplierID" type="System.Int32" columnName="SupplierID" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Products" type="System.Int32" columnName="SupplierID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="SupplierID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Territories" tableName="Territories">
+      <fields>
+        <field name="TerritoryDescription" type="System.String" columnName="TerritoryDescription" allowNull="false" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="91a81aaa-2cb3-4e37-bf8d-fbc777eb60ac" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="RegionID" referenceEntity="Region" ownerEntity="Territories" relationColumn="RegionID">
+          <modelClassMoniker name="//Region" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="TerritoryID" type="System.String" columnName="TerritoryID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Region" type="System.Int32" columnName="RegionID" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" primaryKeyColumn="RegionID" />
+        <relationship name="EmployeeTerritories" type="System.String" columnName="TerritoryID" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" primaryKeyColumn="TerritoryID" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Migration" tableName="ModelClass1">
+      <fields>
+        <field name="FirstName" type="String" columnName="FirstName" allowNull="false" precision="0" scale="0" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="Id" type="Int32" columnName="Id" allowNull="false" precision="0" scale="0" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+  </types>
+</modelRoot>

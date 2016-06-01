@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PersistentManager.Attributes.FieldName" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Attributes\FieldName.cs</FileName>
+      <HashCode>AAAAAAAAAAAACAAAgEAAAIRAACAECAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.Attributes.ManyToOne" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Attributes\ManyToOne.cs</FileName>
+      <HashCode>AAAAIAAAAQAAAAAAAAAAAAQAAAABAAgAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PersistentManager.Attributes.OneToMany" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Attributes\OneToMany.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAABAAgAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PersistentManager.Attributes.OneToOne" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Attributes\OneToOne.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAABAAgAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PersistentManager.Attributes.TableSchema" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Attributes\TableSchema.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.ConfigurationFactory" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConfigurationFactory.cs</FileName>
+      <HashCode>AAAAAAgIAAACAAgBAAABBAAAAAAAAAEAACAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.EntityManager" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EntityManager.cs</FileName>
+      <HashCode>AIAAAEAFAAAAAAIAAAQBAgQEAACAAAIAQgAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.GenericsEntityManager&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GenericsEntityManager.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.MetaDataManager" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MetaDataManager.cs</FileName>
+      <HashCode>AAAAgAABABAIAAAAgAAAIAAAgAAAIEAAAAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.TypeMetaStructure" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MetaDataManager.cs</FileName>
+      <HashCode>AIAAIBAAAAAAAAAACAAAAAAAgAABAFAAAQAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.OleDbProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>OleDbProvider.cs</FileName>
+      <HashCode>gAAIAIAAAAAAAAgAAAAFAAAACAQACAABAAAABAAAgAY=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PersistentManager.ProviderResourceAllocator" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ProviderAllocator.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.RelationalQueryBuilder" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>RelationalQueryBuilder.cs</FileName>
+      <HashCode>AAgAAAAQgBACAAABAACAAAAAAABgQAEAAAAACAAAQgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.RelationshipGenerator">
+    <Position X="4" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>RelationshipGenerator.cs</FileName>
+      <HashCode>ABAIAAAAEAAAAAJAAQAAEAACAAQAAAAAAAgABAQAAAo=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Class Name="PersistentManager.RelationshipGenerator.RelationalInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RelationshipGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="PersistentManager.DelegateExecutor" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>RelationshipGenerator.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAACAAAEAAgBACEAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.RuntimeManager" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>RuntimeManager.cs</FileName>
+      <HashCode>EACIAAAAAAACAAEAAAABAAQMAAAAAAIAQgAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PersistentManager.SqlServerProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SqlServerProvider.cs</FileName>
+      <HashCode>gAAIAIAAAAAAAAgAAAAFAAAACAQACAABAAAABAAAgAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PersistentManager.WebConfigurationFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WebConfigurationFactory.cs</FileName>
+      <HashCode>AAAAAAgIABACAAgBAAAAAAAABCAAAAEAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="PersistentManager.ColumnInfo" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>RuntimeManager.cs</FileName>
+      <HashCode>AEAAgABBAIAAAQAgAMAYAIBAIACAICAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="PersistentManager.Attributes.IRelationalAttribute" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Attributes\IRelationalAttribute.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PersistentManager.IConfiguration" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IConfiguration.cs</FileName>
+      <HashCode>AAAAAAAAABAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PersistentManager.IDatabaseProvider" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IDatabaseProvider.cs</FileName>
+      <HashCode>gAAIAAAAAAAAAAAAAAAEAAAACAAACAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PersistentManager.QueryType" Collapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EnumDefinations.cs</FileName>
+      <HashCode>AAQAAEAAACAAAAAAAAAAQAAAAAEAAEAAAAAQQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PersistentManager.DataTypeEnum" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EnumDefinations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAhQAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PersistentManager.ParameterType" Collapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EnumDefinations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PersistentManager.ProviderDialect" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IConfiguration.cs</FileName>
+      <HashCode>gAAAAEAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PersistentManager.RuntimeBehaviour" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>RuntimeManager.cs</FileName>
+      <HashCode>ABAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="PersistentManager.GetAll" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>RelationshipGenerator.cs</FileName>
+      <HashCode>AAAAAAAAAAAAADAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

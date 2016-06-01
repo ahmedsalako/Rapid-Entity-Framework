@@ -1,0 +1,133 @@
+F:\Projects\RapidEntity\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+F:\Projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+F:\Projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+F:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+F:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+F:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.xml
+F:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.xml
+F:\Projects\RapidEntity\Dsl\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+F:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+F:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+F:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+F:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+F:\Projects\RapidEntity\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+F:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+F:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Properties.Resources.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb
+D:\Projects\RapidEntity\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+D:\Projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+D:\Projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+D:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+D:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.xml
+D:\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.xml
+D:\Projects\RapidEntity\Dsl\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Properties.Resources.resources
+D:\Projects\RapidEntity\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+D:\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb
+D:\Projects\rapidentityframework\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+D:\Projects\rapidentityframework\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+D:\Projects\rapidentityframework\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+D:\Projects\rapidentityframework\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\Projects\rapidentityframework\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+D:\Projects\rapidentityframework\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.xml
+D:\Projects\rapidentityframework\Dsl\bin\Debug\Microsoft.VisualStudio.Data.xml
+D:\Projects\rapidentityframework\Dsl\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.Properties.Resources.resources
+D:\Projects\rapidentityframework\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+D:\Projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.xml
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.xml
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Properties.Resources.resources
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.xml
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Properties.Resources.resources
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb
+C:\projects\RapidEntity\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+C:\projects\RapidEntity\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+C:\projects\RapidEntity\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\projects\RapidEntity\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\projects\RapidEntity\Dsl\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Properties.Resources.resources
+C:\projects\RapidEntity\Dsl\obj\Debug\GenerateResource.read.1.tlog
+C:\projects\RapidEntity\Dsl\obj\Debug\GenerateResource.write.1.tlog
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+C:\projects\RapidEntity\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb
+C:\projects\rapidentityframework\Dsl\bin\Debug\GeneratedCode\RapidEntitySchema.xsd
+C:\projects\rapidentityframework\Dsl\bin\Debug\consist.RapidEntity.Dsl.dll
+C:\projects\rapidentityframework\Dsl\bin\Debug\consist.RapidEntity.Dsl.pdb
+C:\projects\rapidentityframework\Dsl\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\projects\rapidentityframework\Dsl\bin\Debug\Microsoft.VisualStudio.Data.dll
+C:\projects\rapidentityframework\Dsl\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GeneratedCode.DomainModelResx.resources
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.BaseGUIExtension.resources
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.EntityRelationships.resources
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.KeyResolverForm.resources
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.GUIExtension.PersistentPropertSheet.resources
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.Properties.Resources.resources
+C:\projects\rapidentityframework\Dsl\obj\Debug\GenerateResource.read.1.tlog
+C:\projects\rapidentityframework\Dsl\obj\Debug\GenerateResource.write.1.tlog
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.Dsl.dll
+C:\projects\rapidentityframework\Dsl\obj\Debug\consist.RapidEntity.Dsl.pdb

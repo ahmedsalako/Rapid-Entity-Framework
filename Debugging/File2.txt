@@ -1,0 +1,73 @@
+
+public class Item 
+{
+
+    private Title titleValue;
+    public Title title
+    {
+        get {return titleValue; }
+        set
+        {
+                        if (title != value)
+						{
+							if (title != null) 
+							title.stock = null;
+							titleValue = value;
+							if (value != null)
+							{
+								titleValue.stock=this;
+							}
+						}        
+       }
+    }
+}
+
+public class Title 
+{
+    string name;
+						private Item stockValue;
+						public Item stock
+						{
+							get{ return stockValue; }
+							set
+							{
+										  if (stock != value)
+											{
+												if (stock != null) 
+												stock.title = null;
+												stockValue = value;
+												if (value != null) 
+												{
+													stockValue.title=this;
+												}
+											}
+							}
+						}
+}
+
+public class Book : Item 
+{
+}
+
+public class Member 
+{
+}
+
+public class Library 
+{
+}
+
+public class Loan 
+{
+    Date commenced;
+}
+
+public class Reservation : Office 
+{
+    Date made;
+}
+
+public class Office 
+{
+}
+

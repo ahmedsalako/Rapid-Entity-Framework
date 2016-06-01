@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RapidEntity">
+</Property><Property Name="Solution File" Value="C:\projects\RapidEntity\RapidEntity.sln">
+</Property><Property Name="Date" Value="04 December 2010">
+</Property><Property Name="Time" Value="09:17">
+</Property></Properties><Event ErrorLevel="0" Project="DslPackage" Source="DslPackage\DslPackage.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="DslPackage" Source="DslPackage\DslPackage.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="PersistentManager" Source="PersistentManager\PersistentManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PersistentManager" Source="PersistentManager\PersistentManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Dsl" Source="Dsl\Dsl.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Dsl" Source="Dsl\Dsl.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="RapidEntitySetup" Source="RapidEntitySetup\RapidEntitySetup.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RapidEntitySetup" Source="RapidEntitySetup\RapidEntitySetup.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RapidAsService" Source="RapidEntityTest\RapidAsService\RapidAsService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RapidAsService" Source="RapidEntityTest\RapidAsService\RapidAsService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PersistentFrameworkTest" Source="RapidEntityTest\PersistentFrameworkTest\PersistentFrameworkTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PersistentFrameworkTest" Source="RapidEntityTest\PersistentFrameworkTest\PersistentFrameworkTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Persistent.Entities" Source="RapidEntityTest\Persistent.Entities\Persistent.Entities.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Persistent.Entities" Source="RapidEntityTest\Persistent.Entities\Persistent.Entities.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RapidWebTest" Source="RapidWebTest\RapidWebTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RapidWebTest" Source="RapidWebTest\RapidWebTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RapidEntity.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RapidEntity.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RapidEntitySetup" Source="RapidEntitySetup\RapidEntitySetup.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PersistentManager" Source="PersistentManager\PersistentManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PersistentFrameworkTest" Source="RapidEntityTest\PersistentFrameworkTest\PersistentFrameworkTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Persistent.Entities" Source="RapidEntityTest\Persistent.Entities\Persistent.Entities.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RapidWebTest" Source="RapidWebTest\RapidWebTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RapidAsService" Source="RapidEntityTest\RapidAsService\RapidAsService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

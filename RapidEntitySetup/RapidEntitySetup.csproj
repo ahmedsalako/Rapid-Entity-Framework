@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E2E9F352-4D6B-406C-8C31-1D39D905820C}</ProjectGuid>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <OutputName>RapidEntity</OutputName>
+    <LocalizedStringFile>Strings.wxl</LocalizedStringFile>
+    <SuppressAssemblies>True</SuppressAssemblies>
+    <VerboseOutput>True</VerboseOutput>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <AssemblyName>RapidEntitySetup</AssemblyName>
+    <RootNamespace>RapidEntitySetup</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>Configuration=Debug</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>Configuration=Release</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\DSLTools\v2.1\wix.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <None Include="Files\EULA.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Files.wxs">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Files\Rapid_Entity_Framework.zip" />
+    <Content Include="Files\Readme.htm" />
+    <None Include="InstallerDefinition.dslsetup">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Main.wxs">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Registry.wxs">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\BannerBitmap.bmp" />
+    <None Include="Resources\Product.ico" />
+    <None Include="Resources\NewFldrBtn.bmp" />
+    <None Include="Resources\ReadmeShortcut.ico" />
+    <None Include="Resources\UpFldrBtn.bmp" />
+    <None Include="Strings.wxl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UI.wxs">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\MySql.Data.dll" />
+    <Content Include="Resources\RapidEntity.ico" />
+    <Content Include="Resources\rapidlogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DslPackage\DslPackage.csproj">
+      <Project>{2573D4F0-28FC-4FF1-B260-1844BA27E569}</Project>
+      <Name>DslPackage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dsl\Dsl.csproj">
+      <Project>{3F1AA0F3-06FA-4E35-8F36-64C2412515D0}</Project>
+      <Name>Dsl</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

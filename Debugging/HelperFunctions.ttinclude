@@ -1,0 +1,18 @@
+﻿<#@ import namespace = "System.Text.RegularExpressions" #>
+<#+
+private static string MakeValidName(string typeName)
+{
+    //Use the System.Text.RegularExpressions namespace specified in the import directive
+    //Remove non-alpha characters
+    string fixedName = Regex.Replace(typeName,"[^a-zA-Z]","");        return fixedName;
+}
+#>
+<#+  void SaveOutput(string outputFileName)  
+     {      
+         string templateDirectory = Path.GetDirectoryName(Host.TemplateFile);
+         string outputFilePath = Path.Combine(templateDirectory, outputFileName);
+         File.WriteAllText(outputFilePath, this.GenerationEnvironment.ToString()); 
+         
+         this.GenerationEnvironment.Remove(0, this.GenerationEnvironment.Length);  
+      }
+#>

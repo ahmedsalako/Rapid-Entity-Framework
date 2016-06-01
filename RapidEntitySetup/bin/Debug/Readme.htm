@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.0  (Win32)">
+	<META NAME="CREATED" CONTENT="20090219;16123100">
+	<META NAME="CHANGED" CONTENT="20090219;16142300">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin-left: 0.79in; margin-top: 0.79in; margin-bottom: 0.79in }
+		P { margin-bottom: 0.08in }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P STYLE="margin-bottom: 0.2in"><A NAME="ctl00_ctl00_MasterContent_Content_wikiSourceLabel"></A>
+Hi all, if you have downloaded the ORM framework and you like it, you
+can stay tunned onto this open source project, because there is more
+to come. Currently i have built a tool to diagram domain entities, to
+make it flexible to map the object and relational database. To get
+this tool, download it in the following
+<A HREF="http://www.codeplex.com/rapidentityframework/Release/ProjectReleases.aspx?ReleaseId=21286">http://www.codeplex.com/rapidentityframework/Release/ProjectReleases.aspx?ReleaseId=21286</A><BR><BR>Rapid
+<B>Entity Designer SetUp</B> This installer will install rapid entity
+project template into your Visual Studio IDE (2008). After
+installations, you can create a new project from that template and
+drag and drop tables from server explorer to the designer surface.
+After which you will need to right click the designer and click on
+generate entities to generate all mapped table into the projects
+GeneratedCode folder<BR><BR>This tool is an integration to visual
+studio and it supports visual studio 2008.<BR><BR><B>How to use Rapid
+Entity Designer</B><BR><BR><B>Step 1</B> <U><B>Install Rapid Entity
+Designer</B></U><BR><BR>After downloading above, then unzip the
+RapidEntityDesignerSetup.zip file and click on the RapidEntity.msi
+installer, this will install the RapidEntity integration with visual
+studio. This will enable you to drag and drop tables from Server
+explorer. <BR><BR><B>Step 2</B> <U><B>Create New Rapid Entity
+Project</B></U><BR><BR>Next is to create a new rapid entity project.
+Since we have installed the Designer Setup, <B>Rapid Entity Designer</B>
+will now be integrated into your IDE for relational mapping. 
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0in">Open Visual Studio .NET IDE</P>
+	<LI><P STYLE="margin-bottom: 0in">Click File &gt; New Project (Your
+	New Project Dialog Box Pops-up)</P>
+	<LI><P STYLE="margin-bottom: 0in">Select Visual C# Project</P>
+	<LI><P STYLE="margin-bottom: 0in">Select Rapid Entity Framework from
+	the Visual Studio installed templates section.</P>
+	<LI><P>Click OK Button, to create new Rapid Entity Project. 
+	</P>
+</OL>
+<P><BR><IMG SRC="http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=rapidentityframework&amp;DownloadId=54690" NAME="graphics1" ALT="newproject.JPG" ALIGN=BOTTOM WIDTH=75 HEIGHT=38 BORDER=0><BR><BR><B>Step
+3</B> <U><B>Whats In the solution Explorer</B></U><BR><BR>Rapid
+Entity Framework Solution explorer is like any other C# project but
+with some additional file type. The following are the file types and
+brief explanation about them :</P>
+<OL>
+	<LI><P><U><B>Rapid.rapd</B></U> This file, when you double click on
+	it, it will open up the designer surface where you can drag and drop
+	tables from the solution explorer. You can add as many <B>.rapd</B>
+	file as you want, meaning you can design several entity with
+	different <B>.rapd</B> file. The choice is yours, but i choose to
+	use just one for my projects and many if its getting messy. 
+	</P>
+</OL>
+<P><BR><BR>
+</P>
+<OL>
+	<LI><P><U><B>GeneratedCode</B></U> When you generated your
+	artifacts, the generated code will be saved into the <B>GeneratedCode</B>
+	folder. This folder is mandatory. 
+	</P>
+</OL>
+<P><BR><BR>
+</P>
+<OL>
+	<LI><P><U><B>RapidEntitySchema.xsd</B></U> This is required by the
+	designer. Leave it as it is. 
+	</P>
+</OL>
+<P STYLE="margin-left: -0.61in; margin-right: -0.47in"><BR><IMG SRC="http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=rapidentityframework&amp;DownloadId=54692" NAME="graphics2" ALT="solutionexplorer.JPG" ALIGN=BOTTOM WIDTH=277 HEIGHT=439 BORDER=0><BR><BR><B>Step
+4</B> <U><B>Draging tables into Rapid Entity Designer Interface</B></U><BR><BR>When
+you double click on the <B>.rapd</B> file, this opens the designer
+surface where you can drag and drop tables from the solution explorer
+databases. For now rapid entity still support Microsoft SQL Server
+and ACCESS DB. Let us Open the Rapid.rapd file :<BR><BR><IMG SRC="http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=rapidentityframework&amp;DownloadId=54705" NAME="graphics3" ALT="desingnerSurface.JPG" ALIGN=BOTTOM WIDTH=654 HEIGHT=349 BORDER=0><BR><BR>Now
+we will drag and drop onto the surface area, Let us drag the
+Employees table from the Northwind database (SQL Server
+2005).<BR><BR><IMG SRC="http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=rapidentityframework&amp;DownloadId=54706" NAME="graphics4" ALT="employeediagram.JPG" ALIGN=BOTTOM WIDTH=507 HEIGHT=531 BORDER=0><BR><BR>This
+is the basic way of dragging and dropping unto the rapid entity
+design interface. You can as well make use of the *<A HREF="http://www.codeplex.com/rapidentityframework/Wiki/View.aspx?title=Designing%20Rapid%20Entity%20From%20Tool%20Box&amp;referringTitle=Rapid%20Entity%20Designer">Designing
+Rapid Entity From Tool Box</A>. This approach is still not stable,
+you might experience some error (Work is in progress on this).<BR><BR>Let
+us now drag few other tables and right click the designer surface to
+generate the Entity clases for us.<BR><BR><IMG SRC="http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=rapidentityframework&amp;DownloadId=54708" NAME="graphics5" ALT="entitiesgeneration.JPG" ALIGN=BOTTOM WIDTH=876 HEIGHT=575 BORDER=0><BR><BR>You
+can see the generate option when you right click on the interface.
+After right clicking, you select generate and all the
+domains/entities will be generated into into the <B>GeneratedCode</B>
+folder. In our diagram above, notice the relationships amongst the
+entities, Rapid Designer automatically detects database relationships
+and it joins the entities accordingly. In this example, <B>employess</B>
+has <B>EmployeeTerritories</B> is related to one or Many
+<B>Territories</B>.<BR><BR>Now let us generated our domain artifacts.
+You will see that after clicking on the Generate Entities option when
+we right click on the designer surface, codes are generated into the
+<B>GeneratedCode</B> folder just like in the below diagram :<BR><BR><IMG SRC="http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=rapidentityframework&amp;DownloadId=54709" NAME="graphics6" ALT="generatedclasses.JPG" ALIGN=BOTTOM WIDTH=259 HEIGHT=256 BORDER=0><BR><BR>You
+can contribute to this project if you download the entire Rapid
+Entity source code
+<A HREF="http://www.codeplex.com/rapidentityframework/Release/ProjectReleases.aspx?ReleaseId=21291#ReleaseFiles">http://www.codeplex.com/rapidentityframework/Release/ProjectReleases.aspx?ReleaseId=21291#ReleaseFiles</A>
+(Comprising of the Designer and the Persistent Framework). Stay
+tunned because there are more to come on this arena. 
+</P>
+</BODY>
+</HTML>

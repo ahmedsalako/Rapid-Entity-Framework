@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Providers>
+    <Provider>
+      <Name>MySqlProvider</Name>
+      <UniqueId>7107042E-9611-4ac9-BC86-BB3AFF0AABF6</UniqueId>
+      <Type>DB</Type>
+      <AssemblyName>MySql.Data.dll</AssemblyName>
+      <ConnectionQualifiedName>MySql.Data.MySqlClient.MySqlConnection</ConnectionQualifiedName>
+      <CommandQualifiedName>MySql.Data.MySqlClient.MySqlCommand</CommandQualifiedName>
+      <ParameterQualifiedName>MySql.Data.MySqlClient.MySqlParameter</ParameterQualifiedName>
+    </Provider>
+    <Provider>
+      <Name>Db2Provider</Name>
+      <UniqueId>654C0B8E-8127-4389-81E6-4A29390D012D</UniqueId>
+      <Type>DB</Type>
+      <AssemblyName>IBM.Data.DB2.dll</AssemblyName>
+      <ConnectionQualifiedName>IBM.Data.DB2.DB2Connection</ConnectionQualifiedName>
+      <CommandQualifiedName>IBM.Data.DB2.DB2Command</CommandQualifiedName>
+      <ParameterQualifiedName>IBM.Data.DB2.DB2Parameter</ParameterQualifiedName>
+    </Provider>
+  <Provider>
+    <Name>SQLLite3Provider</Name>
+    <UniqueId>B4C606F1-DBBD-477a-8630-C95F8E477990</UniqueId>
+    <Type>DB</Type>
+    <AssemblyName>System.Data.SQLite.dll</AssemblyName>
+    <ConnectionQualifiedName>System.Data.SQLite.SQLiteConnection</ConnectionQualifiedName>
+    <CommandQualifiedName>System.Data.SQLite.SQLiteCommand</CommandQualifiedName>
+    <ParameterQualifiedName>System.Data.SQLite.SQLiteParameter</ParameterQualifiedName>
+  </Provider>  
+</Providers>

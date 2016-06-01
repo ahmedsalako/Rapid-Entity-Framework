@@ -1,0 +1,70 @@
+F:\Projects\PersistentFrameworkTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\PersistentFrameworkTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+F:\Projects\PersistentFrameworkTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+F:\Projects\PersistentFrameworkTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+F:\Projects\PersistentFrameworkTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+F:\Projects\PersistentFrameworkTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+F:\Projects\PersistentFrameworkTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+F:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+F:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+F:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+F:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+F:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+F:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+D:\Projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+D:\Projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+D:\Projects\rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+D:\Projects\rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+C:\Documents and Settings\ahmed.salako\Desktop\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+D:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+D:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+D:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+D:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+D:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+D:\Projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+C:\new-project\2\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\new-project\2\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+C:\new-project\2\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+C:\projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+C:\projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+C:\projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+C:\projects\RapidEntity\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+C:\projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+C:\projects\RapidEntity\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
+C:\projects\Rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.csprojResolveAssemblyReference.cache

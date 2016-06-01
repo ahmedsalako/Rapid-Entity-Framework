@@ -1,0 +1,16 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<Name Package="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}" ID="103"/>
+		<Description Package="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}" ID="102"/>
+		<Icon Package="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>RapidEntity.rapd</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.rapd">rapd.rapd</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.rapd.diagram">rapd.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

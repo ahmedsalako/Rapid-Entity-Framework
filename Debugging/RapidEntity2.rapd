@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" name="" xmlns="http://schemas.microsoft.com/dsltools/RapidEntity">
+  <types>
+    <modelClass name="UserLogin" tableName="UserLogin">
+      <fields>
+        <field name="Password" type="System.String" columnName="Password" allowNull="true" precision="255" scale="255" />
+        <field name="Email" type="System.String" columnName="Email" allowNull="true" precision="255" scale="255" />
+        <field name="ApplicationName" type="System.String" columnName="ApplicationName" allowNull="true" precision="255" scale="255" />
+        <field name="Comment" type="System.String" columnName="Comment" allowNull="true" precision="255" scale="255" />
+        <field name="PasswordQuestion" type="System.String" columnName="PasswordQuestion" allowNull="true" precision="255" scale="255" />
+        <field name="PasswordAnswer" type="System.String" columnName="PasswordAnswer" allowNull="true" precision="255" scale="255" />
+        <field name="IsApproved" type="System.Boolean" columnName="IsApproved" allowNull="true" precision="255" scale="255" />
+        <field name="LastActivityDate" type="System.DateTime" columnName="LastActivityDate" allowNull="true" precision="23" scale="3" />
+        <field name="LastLoginDate" type="System.DateTime" columnName="LastLoginDate" allowNull="true" precision="23" scale="3" />
+        <field name="LastPasswordChangedDate" type="System.DateTime" columnName="LastPasswordChangedDate" allowNull="true" precision="23" scale="3" />
+        <field name="CreationDate" type="System.DateTime" columnName="CreationDate" allowNull="true" precision="23" scale="3" />
+        <field name="IsOnLine" type="System.Boolean" columnName="IsOnLine" allowNull="true" precision="255" scale="255" />
+        <field name="IsLockedOut" type="System.Boolean" columnName="IsLockedOut" allowNull="true" precision="255" scale="255" />
+        <field name="LastLockedOutDate" type="System.DateTime" columnName="LastLockedOutDate" allowNull="true" precision="23" scale="3" />
+        <field name="FailedPasswordAttemptCount" type="System.Int32" columnName="FailedPasswordAttemptCount" allowNull="true" precision="10" scale="255" />
+        <field name="FailedPasswordAttemptWindowStart" type="System.DateTime" columnName="FailedPasswordAttemptWindowStart" allowNull="true" precision="23" scale="3" />
+        <field name="FailedPasswordAnswerAttemptCount" type="System.Int32" columnName="FailedPasswordAnswerAttemptCount" allowNull="true" precision="10" scale="255" />
+        <field name="FailedPasswordAnswerAttemptWindowStart" type="System.DateTime" columnName="FailedPasswordAnswerAttemptWindowStart" allowNull="true" precision="23" scale="3" />
+        <field name="UserName" type="System.String" columnName="UserName" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="38b47405-2a82-48ce-8081-3310f45f4706" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="UserLoginId" referenceEntity="MasterUser" ownerEntity="UserLogin" referencedKey="PKID" type="System.Guid" relationColumn="UserLoginId">
+          <modelClassMoniker name="//MasterUser" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="PKID" type="System.Guid" columnName="PKID" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Performance" tableName="Performance">
+      <fields>
+        <field name="AdditionalMessage" type="System.String" columnName="AdditionalMessage" allowNull="true" precision="255" scale="255" />
+        <field name="PerformanceDate" type="System.DateTime" columnName="PerformanceDate" allowNull="true" precision="23" scale="3" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="PerformanceId" type="System.Int64" columnName="PerformanceId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Photo" tableName="Photo">
+      <fields>
+        <field name="DateCreated" type="System.DateTime" columnName="DateCreated" allowNull="true" precision="23" scale="3" />
+        <field name="Photo" type="System.Byte[]" columnName="Photo" allowNull="true" precision="255" scale="255" />
+        <field name="Description" type="System.String" columnName="Description" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="PhotoId" type="System.Int64" columnName="PhotoId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="PhotoGroup" tableName="PhotoGroup">
+      <fields>
+        <field name="DateCreated" type="System.DateTime" columnName="DateCreated" allowNull="true" precision="23" scale="3" />
+        <field name="GroupDescription" type="System.String" columnName="GroupDescription" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="095a7da4-4783-4fe3-9447-388fd987faa4" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="PhotoGroupId" referenceEntity="Performance" ownerEntity="PhotoGroup" referencedKey="PhotoGroupId" type="System.Int64" relationColumn="PhotoGroupId">
+          <modelClassMoniker name="//Performance" />
+        </oneToMany>
+        <oneToMany Id="ae94808f-c6a9-4158-8985-2a23323c412f" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="PhotoGroupId" referenceEntity="Photo" ownerEntity="PhotoGroup" referencedKey="PhotoGroupId" type="System.Int64" relationColumn="PhotoGroupId">
+          <modelClassMoniker name="//Photo" />
+        </oneToMany>
+        <oneToMany Id="7a278895-a7af-4525-81e0-2bef9198fa6c" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="PhotoGroupId" referenceEntity="DiscJockey" ownerEntity="PhotoGroup" referencedKey="PhotoGroupId" type="System.Int64" relationColumn="PhotoGroupId">
+          <modelClassMoniker name="//DiscJockey" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="PhotoGroupId" type="System.Int64" columnName="PhotoGroupId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="RecordLabel" tableName="RecordLabel">
+      <fields>
+        <field name="Name" type="System.String" columnName="Name" allowNull="true" precision="255" scale="255" />
+        <field name="itunes" type="System.String" columnName="itunes" allowNull="true" precision="255" scale="255" />
+        <field name="website" type="System.String" columnName="website" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="LabelId" type="System.Int64" columnName="LabelId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Sysdiagrams" tableName="sysdiagrams">
+      <fields>
+        <field name="name" type="System.String" columnName="name" allowNull="true" precision="255" scale="255" />
+        <field name="principal_id" type="System.Int32" columnName="principal_id" allowNull="true" precision="10" scale="255" />
+        <field name="version" type="System.Int32" columnName="version" allowNull="true" precision="10" scale="255" />
+        <field name="definition" type="System.Byte[]" columnName="definition" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="diagram_id" type="System.Int32" columnName="diagram_id" allowNull="false" precision="10" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="MasterUser" tableName="MasterUser">
+      <fields>
+        <field name="DateOfBirth" type="System.DateTime" columnName="DateOfBirth" allowNull="true" precision="23" scale="3" />
+        <field name="FirstName" type="System.String" columnName="FirstName" allowNull="true" precision="255" scale="255" />
+        <field name="LastName" type="System.String" columnName="LastName" allowNull="true" precision="255" scale="255" />
+        <field name="MiddleName" type="System.String" columnName="MiddleName" allowNull="true" precision="255" scale="255" />
+        <field name="Gender" type="System.String" columnName="Gender" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="46546b32-c04c-41e2-903b-36d66f60e7b7" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="UserId" referenceEntity="DiscJockey" ownerEntity="MasterUser" referencedKey="UserId" type="System.Int64" relationColumn="UserId">
+          <modelClassMoniker name="//DiscJockey" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="UserId" type="System.Int64" columnName="UserId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="DJRadioStations" tableName="DJRadioStations">
+      <fields>
+        <field name="URL" type="System.String" columnName="URL" allowNull="true" precision="255" scale="255" />
+        <field name="Heading" type="System.String" columnName="Heading" allowNull="true" precision="255" scale="255" />
+        <field name="ShortHeading" type="System.Byte[]" columnName="ShortHeading" allowNull="true" precision="255" scale="255" />
+        <field name="GenreId" type="System.Int64" columnName="GenreId" allowNull="true" precision="19" scale="255" />
+        <field name="CountryId" type="System.Int64" columnName="CountryId" allowNull="true" precision="19" scale="255" />
+        <field name="SubmittedById" type="System.Int64" columnName="SubmittedById" allowNull="true" precision="19" scale="255" />
+        <field name="SubmissionDate" type="System.DateTime" columnName="SubmissionDate" allowNull="true" precision="23" scale="3" />
+        <field name="SubscriptionTypeId" type="System.Int64" columnName="SubscriptionTypeId" allowNull="true" precision="19" scale="255" />
+        <field name="ChannelId" type="System.Int64" columnName="ChannelId" allowNull="true" precision="19" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="StationId" type="System.Int64" columnName="StationId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="SubscriptionType" tableName="SubscriptionType">
+      <fields>
+        <field name="Name" type="System.String" columnName="Name" allowNull="true" precision="255" scale="255" />
+        <field name="Value" type="System.String" columnName="Value" allowNull="true" precision="255" scale="255" />
+        <field name="Amount" type="System.Decimal" columnName="Amount" allowNull="true" precision="19" scale="255" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="SubscriptionId" type="System.Int64" columnName="SubscriptionId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Address" tableName="Address">
+      <fields>
+        <field name="Address" type="System.String" columnName="Address" allowNull="true" precision="255" scale="255" />
+        <field name="PostCode" type="System.String" columnName="PostCode" allowNull="true" precision="255" scale="255" />
+        <field name="County" type="System.String" columnName="County" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="25a27731-e918-4ed5-aa6d-357de4f5b11f" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="AddressId" referenceEntity="Performance" ownerEntity="Address" referencedKey="AddressId" type="System.Int64" relationColumn="AddressId">
+          <modelClassMoniker name="//Performance" />
+        </oneToMany>
+        <oneToMany Id="25aa1d80-7227-4e8e-b517-77edc776b9f0" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="AddressId" referenceEntity="MasterUser" ownerEntity="Address" referencedKey="AddressId" type="System.Int64" relationColumn="AddressId">
+          <modelClassMoniker name="//MasterUser" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="AddressId" type="System.Int64" columnName="AddressId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Country" tableName="Country">
+      <fields>
+        <field name="CountryName" type="System.String" columnName="CountryName" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="66e70c40-7b64-4dfe-a973-a775519cd025" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="CountryCode" referenceEntity="Address" ownerEntity="Country" referencedKey="CountryCode" type="System.String" relationColumn="CountryCode">
+          <modelClassMoniker name="//Address" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="CountryCode" type="System.String" columnName="CountryCode" allowNull="false" precision="255" scale="255" isAutoKey="false" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="DJBookings" tableName="DJBookings">
+      <fields>
+        <field name="EventDate" type="System.DateTime" columnName="EventDate" allowNull="true" precision="23" scale="3" />
+        <field name="Description" type="System.String" columnName="Description" allowNull="true" precision="255" scale="255" />
+        <field name="BookingState" type="System.Boolean" columnName="BookingState" allowNull="true" precision="255" scale="255" />
+        <field name="AlternativeDate" type="System.DateTime" columnName="AlternativeDate" allowNull="true" precision="23" scale="3" />
+        <field name="AdditionalInfo" type="System.String" columnName="AdditionalInfo" allowNull="true" precision="255" scale="255" />
+        <field name="BookingType" type="System.String" columnName="BookingType" allowNull="true" precision="255" scale="255" />
+        <field name="BookingOwnerId" type="System.Int64" columnName="BookingOwnerId" allowNull="true" precision="19" scale="255" />
+        <field name="BookingDate" type="System.DateTime" columnName="BookingDate" allowNull="true" precision="23" scale="3" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="BookingsId" type="System.Int64" columnName="BookingsId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="DiscJockey" tableName="DiscJockey">
+      <fields>
+        <field name="StageName" type="System.String" columnName="StageName" allowNull="true" precision="255" scale="255" />
+        <field name="telephone" type="System.String" columnName="telephone" allowNull="true" precision="255" scale="255" />
+        <field name="mobile" type="System.String" columnName="mobile" allowNull="true" precision="255" scale="255" />
+        <field name="biodata" type="System.String" columnName="biodata" allowNull="true" precision="255" scale="255" />
+        <field name="website" type="System.String" columnName="website" allowNull="true" precision="255" scale="255" />
+        <field name="StandardPrice" type="System.Decimal" columnName="StandardPrice" allowNull="true" precision="19" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="458f8b92-156b-4f6f-a949-3bc2be3e689a" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="DJId" referenceEntity="Performance" ownerEntity="DiscJockey" referencedKey="DJId" type="System.Int64" relationColumn="DJId">
+          <modelClassMoniker name="//Performance" />
+        </oneToMany>
+        <oneToMany Id="d108661c-8fda-4d31-a61a-b5e13778dadf" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="DJId" referenceEntity="RecordLabel" ownerEntity="DiscJockey" referencedKey="DJId" type="System.Int64" relationColumn="DJId">
+          <modelClassMoniker name="//RecordLabel" />
+        </oneToMany>
+        <oneToMany Id="d11c372e-4672-4cc6-bf37-f9b8470e747c" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="DJId" referenceEntity="DJBookings" ownerEntity="DiscJockey" referencedKey="DJId" type="System.Int64" relationColumn="DJId">
+          <modelClassMoniker name="//DJBookings" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="DJId" type="System.Int64" columnName="DJId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+    <modelClass name="Genre" tableName="Genre">
+      <fields>
+        <field name="Name" type="System.String" columnName="Name" allowNull="true" precision="255" scale="255" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="e7360430-dc61-477d-a52d-fab8bfe6d272" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="GenreId" referenceEntity="DiscJockey" ownerEntity="Genre" referencedKey="GenreId" type="System.Int64" relationColumn="GenreId">
+          <modelClassMoniker name="//DiscJockey" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="GenreId" type="System.Int64" columnName="GenreId" allowNull="false" precision="19" scale="255" isAutoKey="true" />
+      </persistentKeys>
+    </modelClass>
+  </types>
+</modelRoot>

@@ -1,0 +1,28 @@
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\Debugging\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\Debugging\bin\Debug\Debugging.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\Debugging\bin\Debug\Debugging.pdb
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\Debugging\bin\Debug\PersistentManager.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\Debugging\bin\Debug\PersistentManager.pdb
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\Debugging\obj\Debug\Debugging.dll
+C:\Documents and Settings\AppTester\My Documents\Visual Studio 2008\Projects\RapidEntity\Debugging\obj\Debug\Debugging.pdb
+D:\Projects\RapidEntity\Debugging\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\RapidEntity\Debugging\bin\Debug\Debugging.dll
+D:\Projects\RapidEntity\Debugging\bin\Debug\Debugging.pdb
+D:\Projects\RapidEntity\Debugging\bin\Debug\PersistentManager.dll
+D:\Projects\RapidEntity\Debugging\bin\Debug\PersistentManager.pdb
+D:\Projects\RapidEntity\Debugging\obj\Debug\Debugging.dll
+D:\Projects\RapidEntity\Debugging\obj\Debug\Debugging.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Debugging\bin\Debug\Debugging.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Debugging\bin\Debug\Debugging.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Debugging\bin\Debug\PersistentManager.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Debugging\bin\Debug\PersistentManager.pdb
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Debugging\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Debugging\obj\Debug\Debugging.dll
+C:\Documents and Settings\Ahmed.CONSISTSOFT\Desktop\Projects2\RapidEntity\Debugging\obj\Debug\Debugging.pdb
+C:\projects\RapidEntity\Debugging\bin\Debug\Debugging.dll
+C:\projects\RapidEntity\Debugging\bin\Debug\Debugging.pdb
+C:\projects\RapidEntity\Debugging\bin\Debug\PersistentManager.dll
+C:\projects\RapidEntity\Debugging\bin\Debug\PersistentManager.pdb
+C:\projects\RapidEntity\Debugging\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\RapidEntity\Debugging\obj\Debug\Debugging.dll
+C:\projects\RapidEntity\Debugging\obj\Debug\Debugging.pdb

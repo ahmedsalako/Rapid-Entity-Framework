@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- -->
+  <!-- This file contains custom command definitions. -->
+  <!-- -->
+  <!-- NOTE: Each time commands are added or changed, the "version" parameter to the -->
+  <!-- ProvideMenuResource attribute in Shell\Package.tt should be incremented. -->
+  <!-- This causes Visual Studio to re-merge the menu definitions for the package. -->
+  <!-- Otherwise, changes won't take effect until the next time devenv /setup is run. -->
+  <!-- -->
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Extern href="msobtnid.h"/>
+  <Extern href="virtkeys.h"/>
+  <Extern href="DSLToolsCmdID.h"/>
+  <Include href="GeneratedCode\GeneratedVsct.vsct"/>
+  <Commands package="guidPkg">
+    <Menus>
+      <Menu guid="commandsGuid" id="vsTopLevelMenu" priority="0x100" type="Menu">
+        <!--<Parent guid="guidSHLMainMenu" id="IDG_VS_MM_BUILDDEBUGRUN" />-->
+        <Strings>
+          <ButtonText>Rapid Entity</ButtonText>
+          <CommandName>Rapid Entity</CommandName>
+        </Strings>
+      </Menu>
+      <Menu guid="commandsGuid" id="rapidZoomMenu" priority="0x100" type="Menu">
+        <Parent guid="guidCmdSet" id="grpidContextMain"/>
+        <Strings>
+          <ButtonText>Zoom</ButtonText>
+          <CommandName>Zoom</CommandName>
+        </Strings>
+      </Menu>      
+      <Menu guid="commandsGuid" id="gridsMenu" priority="0x101" type="Context">
+        <Parent guid="guidCmdSet" id="grpidContextMain"/>
+        <Strings>
+          <ButtonText>Display</ButtonText>
+          <CommandName>Display</CommandName>
+        </Strings>
+      </Menu>      
+    </Menus>
+    <Buttons>
+      <Button guid="commandsGuid" id="cmdGenerateEntitiesID" type="Button">
+        <Parent guid="commandsGuid" id="vsTopLevelMenuGroup"/>
+        <Icon guid="generate_entitiesGuid" id="generate_entitiesID"/>
+        <Strings>
+          <CanonicalName>cmdGenerateEntities</CanonicalName>
+          <ButtonText>Generate Domain Entities</ButtonText>
+          <ToolTipText>Generate Domain Entities</ToolTipText>
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdGenerateEntitiesWithXmlMappingID" type="Button">
+        <Parent guid="commandsGuid" id="vsTopLevelMenuGroup"/>
+        <Icon guid="generate_entitiesGuid" id="generate_entitiesID"/>
+        <Strings>
+          <CanonicalName>cmdGenerateEntitiesWithXmlMapping</CanonicalName>
+          <ButtonText>Generate Entities With Xml Mapping</ButtonText>
+          <ToolTipText>Generate Entities With Xml Mapping</ToolTipText>
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdExportToDataStoreID" type="Button">
+        <Parent guid="commandsGuid" id="vsTopLevelMenuGroup"/>
+        <Icon guid="bmpExportIconsGuid" id="bmpExportToDatabaseIconID"/>
+        <Strings>
+          <CanonicalName>cmdExportToDataStore</CanonicalName>
+          <ButtonText>Export To Database</ButtonText>
+          <ToolTipText>Export To Database</ToolTipText>
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdImportFromDataStoreID" type="Button">
+        <Parent guid="commandsGuid" id="vsTopLevelMenuGroup"/>
+        <Icon guid="bmpIConsGuid" id="bmpImportIconID"/>
+        <Strings>
+          <CanonicalName>cmdImportFromDatastore</CanonicalName>
+          <ButtonText>Import From Database</ButtonText>
+          <ToolTipText>Import From Database</ToolTipText>          
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdExportToFileID" type="Button">
+        <Parent guid="commandsGuid" id="vsTopLevelMenuGroup"/>
+        <Icon guid="bmpGenerateScriptIConsGuid" id="bmpGenerateScriptIConsID"/>        
+        <Strings>
+          <CanonicalName>cmdExportToFile</CanonicalName>
+          <ButtonText>Export To Sql File</ButtonText>
+          <ToolTipText>Export To Sql File</ToolTipText>
+        </Strings>
+      </Button>      
+      <Button guid="commandsGuid" id="cmdGridView" priority="0x0100" type="Button">
+        <Parent guid="commandsGuid" id="vsContextGridViewGroup"/>
+        <Strings>
+          <CommandName>cmdGridView</CommandName>
+          <ButtonText>Grid View</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdAutoLayout" priority="0x0101" type="Button">
+        <Parent guid="commandsGuid" id="vsContextGridViewGroup"/>
+        <Strings>
+          <CommandName>cmdAutoLayout</CommandName>
+          <ButtonText>Auto Layout</ButtonText>
+        </Strings>
+      </Button>      
+      <Button guid="commandsGuid" id="cmdViewCode" priority="0x0101" type="Button">
+        <Parent guid="commandsGuid" id="vsTopLevelMenuGroup"/>
+        <Strings>
+          <CommandName>cmdViewCode</CommandName>
+          <ButtonText>View Code</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdZoomIn" priority="0x0101" type="Button">
+        <Parent guid="commandsGuid" id="vsContextZoomGroup"/>
+        <Strings>
+          <CommandName>cmdZoomIn</CommandName>
+          <ButtonText>Zoom In</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdZoomOut" priority="0x0102" type="Button">
+        <Parent guid="commandsGuid" id="vsContextZoomGroup"/>
+        <Strings>
+          <CommandName>cmdZoomOut</CommandName>
+          <ButtonText>Zoom Out</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="commandsGuid" id="cmdZoomToFit" priority="0x0103" type="Button">
+        <Parent guid="commandsGuid" id="vsContextZoomGroup"/>
+        <Strings>
+          <CommandName>cmdZoomToFit</CommandName>
+          <ButtonText>Zoom to Fit</ButtonText>
+        </Strings>
+      </Button>      
+    </Buttons>
+    <Bitmaps>
+      <Bitmap guid="bmpIConsGuid" href="Resources\database_go1.bmp" />
+      <Bitmap guid="bmpExportIconsGuid" href="Resources\database_come1.bmp" />
+      <Bitmap guid="bmpGenerateScriptIConsGuid" href="Resources\database_save.bmp" />
+      <Bitmap guid="generate_entitiesGuid" href="Resources\generate_entities.bmp"/>
+    </Bitmaps>
+    <Groups>
+      <Group guid="commandsGuid" id="vsTopLevelMenuGroup" priority="0x0600">
+      </Group>
+      <Group guid="commandsGuid" id="vsContextGridViewGroup" priority="0x0601">
+        <Parent guid="commandsGuid" id="gridsMenu"/>
+      </Group>
+      <Group guid="commandsGuid" id="vsContextZoomGroup" priority="0x0602">
+        <Parent guid="commandsGuid" id="rapidZoomMenu"/>
+      </Group>
+    </Groups>    
+  </Commands>
+  
+  <CommandPlacements>
+    <CommandPlacement guid="commandsGuid" id="vsTopLevelMenuGroup">
+      <Parent guid="commandsGuid" id="vsTopLevelMenu"/>
+    </CommandPlacement>
+    <CommandPlacement guid="commandsGuid" id="cmdGenerateEntitiesID">
+      <Parent guid="guidCmdSet" id="grpidContextMain"/>
+    </CommandPlacement>
+    <CommandPlacement guid="commandsGuid" id="cmdGenerateEntitiesWithXmlMappingID">
+      <Parent guid="guidCmdSet" id="grpidContextMain"/>
+    </CommandPlacement>    
+    <CommandPlacement guid="commandsGuid" id="cmdExportToDataStoreID">
+      <Parent guid="guidCmdSet" id="grpidContextMain"/>
+    </CommandPlacement>
+    <CommandPlacement guid="commandsGuid" id="cmdImportFromDataStoreID">      
+      <Parent guid="guidCmdSet" id="grpidContextMain"/>
+    </CommandPlacement>    
+    <CommandPlacement guid="commandsGuid" id="cmdViewCode">
+      <Parent guid="guidCmdSet" id="grpidContextMain"/>
+    </CommandPlacement>
+    <CommandPlacement guid="commandsGuid" id="cmdExportToFileID">
+      <Parent guid="guidCmdSet" id="grpidContextMain"/>
+    </CommandPlacement>
+  </CommandPlacements> 
+  
+  <Symbols>
+    <GuidSymbol name="commandsGuid" value="{8D7B9CB3-3591-47f9-B104-B7EB173E0F03}" >
+      <IDSymbol name="vsTopLevelMenu" value="0x0100" />      
+      <IDSymbol name="vsTopLevelMenuGroup" value="0x0200" />
+      <IDSymbol name="cmdGridView" value="0x0300" />
+      <IDSymbol name="cmdViewCode" value="0x0301" />
+      <IDSymbol name="cmdGenerateEntitiesID" value="0x0023"/>
+      <IDSymbol name="cmdGenerateEntitiesWithXmlMappingID" value="0x0021"/>
+      <IDSymbol name="cmdExportToDataStoreID" value="0x0024"/>      
+      <IDSymbol name="gridsMenu" value="0x0025"/>
+      <IDSymbol name="vsContextGridViewGroup" value="0x0026"/>
+      <IDSymbol name="cmdZoomIn" value="0x0027"/>
+      <IDSymbol name="cmdZoomOut" value="0x0028"/>
+      <IDSymbol name="rapidZoomMenu" value="0x0029"/>
+      <IDSymbol name="vsContextZoomGroup" value="0x0030"/>
+      <IDSymbol name="cmdZoomToFit" value="0x0031"/>
+      <IDSymbol name="cmdAutoLayout" value="0x0032"/>
+      <IDSymbol name="cmdExportToFileID" value="0x0033"/>
+      <IDSymbol name="cmdImportFromDataStoreID" value="0x0034"/>
+    </GuidSymbol>
+    <GuidSymbol name="bmpIConsGuid" value="{9F88744F-07BE-425f-905D-61FC08671E5F}">
+      <IDSymbol name="bmpImportIconID" value="1"/>      
+    </GuidSymbol>
+    <GuidSymbol name="bmpExportIconsGuid" value="{DF8E240D-B7EB-4859-B1B0-0208BD4C0747}">
+      <IDSymbol name="bmpExportToDatabaseIconID" value="1"/>
+    </GuidSymbol>
+    <GuidSymbol name="bmpGenerateScriptIConsGuid" value="{C642A727-B2EF-4e35-81A5-F795E0B624E0}" >
+      <IDSymbol name="bmpGenerateScriptIConsID" value="1"/>
+    </GuidSymbol>
+    <GuidSymbol name="generate_entitiesGuid" value="{DE44A8FA-9327-499e-A303-96B8478033F7}">
+      <IDSymbol name="generate_entitiesID" value="1"/>
+    </GuidSymbol>
+  </Symbols> 
+</CommandTable>

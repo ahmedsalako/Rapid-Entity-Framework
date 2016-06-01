@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelRoot dslVersion="1.0.0.0" name="" xmlns="http://schemas.microsoft.com/dsltools/RapidEntity">
+  <types>
+    <modelClass name="Address" tableName="Address">
+      <fields>
+        <field name="Address" type="System.String" columnName="Address" allowNull="false" precision="0" scale="0" />
+        <field name="PostCode" type="System.String" columnName="PostCode" allowNull="false" precision="0" scale="0" />
+        <field name="County" type="System.String" columnName="County" allowNull="false" precision="0" scale="0" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="Id" type="System.Int64" columnName="Id" allowNull="false" precision="20" scale="0" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Customer" type="System.Int64" columnName="CustomerId" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Customer" tableName="Customer">
+      <fields>
+        <field name="FirstName" type="System.String" columnName="FirstName" allowNull="false" precision="0" scale="0" />
+        <field name="LastName" type="System.String" columnName="LastName" allowNull="false" precision="0" scale="0" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="800bece8-fb1b-4cb7-8ed0-015db96a92e1" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="Id" referenceEntity="Address" ownerEntity="Customer" relationColumn="CustomerId">
+          <modelClassMoniker name="//Address" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="Id" type="System.Int64" columnName="Id" allowNull="false" precision="20" scale="0" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Address" type="System.Int64" columnName="CustomerId" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+        <relationship name="CustomerOrder" type="System.Int64" columnName="CustomerId" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+      </relationships>
+    </modelClass>
+    <modelClass name="CustomerOrder" tableName="CustomerOrders">
+      <fields>
+        <field name="OrderDate" type="System.DateTime" columnName="OrderDate" allowNull="false" precision="0" scale="0" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="0ead9ca2-414a-47bb-be8a-99cc9f1b5a82" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="Id" referenceEntity="Customer" ownerEntity="CustomerOrder" relationColumn="CustomerId">
+          <modelClassMoniker name="//Customer" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="Id" type="System.Int64" columnName="Id" allowNull="false" precision="20" scale="0" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Customer" type="System.Int64" columnName="CustomerId" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+        <relationship name="Foo" type="System.Int64" columnName="CustomerOrder_Id1" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+        <relationship name="OrderedProduct" type="System.Int64" columnName="OrderId" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+        <relationship name="TEST" type="System.Int64" columnName="CustomerOrder_Id1" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Foo" tableName="Foo">
+      <manyToOnelTargets>
+        <manyToOne Id="f540f35e-6169-44be-a8d5-5b65955c34d1" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="Product_Id1" referenceEntity="Foo" ownerEntity="Product" relationalColumn="Id">
+          <modelClassMoniker name="//Product" />
+        </manyToOne>
+        <manyToOne Id="563b7c43-2b6c-4fef-b16c-bc3f131fcd6b" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="TEST_Id1" referenceEntity="Foo" ownerEntity="TEST" relationalColumn="ID">
+          <modelClassMoniker name="//TEST" />
+        </manyToOne>
+      </manyToOnelTargets>
+      <fields>
+        <field name="FooName" type="System.String" columnName="FooName" allowNull="true" precision="0" scale="0" />
+        <field name="Foo_Id" type="System.String" columnName="Foo_Id" allowNull="true" precision="0" scale="0" />
+      </fields>
+      <oneToOneTargets>
+        <oneToOne Id="8b0edf91-c4ed-4345-8e04-98997d6b4619" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="Id" referenceEntity="Foo" ownerEntity="Foo" relationColumn="Foo_Id2" isImported="false">
+          <modelClassMoniker name="//Foo" />
+        </oneToOne>
+      </oneToOneTargets>
+      <oneToManyTargets>
+        <oneToMany Id="420bbd12-adca-4c91-b80f-919355283946" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="Id" referenceEntity="CustomerOrder" ownerEntity="Foo" relationColumn="CustomerOrder_Id1">
+          <modelClassMoniker name="//CustomerOrder" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="Id" type="System.Int32" columnName="Id" allowNull="false" precision="10" scale="0" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="Foo" type="System.Int32" columnName="Foo_Id2" allowNull="false" precision="0" scale="0" relationshipType="OneToOne" />
+        <relationship name="CustomerOrder" type="System.Int64" columnName="CustomerOrder_Id1" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+        <relationship name="Product" type="System.Int64" columnName="Product_Id1" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+        <relationship name="TEST" type="System.Int64" columnName="TEST_Id1" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+      </relationships>
+    </modelClass>
+    <modelClass name="OrderedProduct" tableName="OrderedProducts">
+      <manyToOnelTargets>
+        <manyToOne Id="d211db02-3a3e-4735-963b-0a7fcac8e5c0" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="OrderedProduct_Id1" referenceEntity="OrderedProduct" ownerEntity="Product" relationalColumn="Id">
+          <modelClassMoniker name="//Product" />
+        </manyToOne>
+      </manyToOnelTargets>
+      <oneToManyTargets>
+        <oneToMany Id="deff19fd-bbf3-4587-820d-a8abc4c38294" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="Id" referenceEntity="CustomerOrder" ownerEntity="OrderedProduct" relationColumn="OrderId">
+          <modelClassMoniker name="//CustomerOrder" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="Id" type="System.Int32" columnName="Id" allowNull="false" precision="10" scale="0" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="CustomerOrder" type="System.Int64" columnName="OrderId" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+        <relationship name="Product" type="System.Int64" columnName="OrderedProduct_Id1" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+      </relationships>
+    </modelClass>
+    <modelClass name="Product" tableName="Product">
+      <fields>
+        <field name="ItemName" type="System.String" columnName="ItemName" allowNull="false" precision="0" scale="0" />
+        <field name="Price" type="System.Decimal" columnName="Price" allowNull="false" precision="126" scale="129" />
+      </fields>
+      <persistentKeys>
+        <persistentKey name="Id" type="System.Int64" columnName="Id" allowNull="false" precision="20" scale="0" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="OrderedProduct" type="System.Int64" columnName="OrderedProduct_Id1" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+        <relationship name="Foo" type="System.Int64" columnName="Product_Id1" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+      </relationships>
+    </modelClass>
+    <modelClass name="TEST" tableName="TEST">
+      <fields>
+        <field name="NAME" type="System.String" columnName="NAME" allowNull="true" precision="0" scale="0" />
+      </fields>
+      <oneToManyTargets>
+        <oneToMany Id="39dd8a82-cfa5-4f1f-ae6e-9680320afdce" sourceMultiplicity="ZeroMany" targetMultiplicity="ZeroMany" referenceColumn="Id" referenceEntity="CustomerOrder" ownerEntity="TEST" relationColumn="CustomerOrder_Id1">
+          <modelClassMoniker name="//CustomerOrder" />
+        </oneToMany>
+      </oneToManyTargets>
+      <persistentKeys>
+        <persistentKey name="ID" type="System.Int64" columnName="ID" allowNull="false" precision="20" scale="0" isAutoKey="false" />
+      </persistentKeys>
+      <relationships>
+        <relationship name="CustomerOrder" type="System.Int64" columnName="CustomerOrder_Id1" allowNull="false" precision="0" scale="0" relationshipType="ManyToOne" />
+        <relationship name="Foo" type="System.Int64" columnName="TEST_Id1" allowNull="false" precision="0" scale="0" relationshipType="OneToMany" />
+      </relationships>
+    </modelClass>
+  </types>
+</modelRoot>

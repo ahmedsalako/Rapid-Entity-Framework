@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+This file is a manifest that defines how a domain-specific language is installed. The text template files 
+(.tt) in this project use the information in this file to generate WiX files (.wxs). When the project is 
+built, these WiX files are compiled into an MSI package. To deploy this package, copy all of the files 
+from the project output directory to the target computer, and run the MSI file.
+
+Some values in this file are copied from the domain-specific language definition (.dsl).
+If the .dsl file could not be found, you will need to edit this manifest to correct values for some attributes.
+For more specific information, see the Error List window.
+-->
+<installerDefinition xmlns="http://schemas.microsoft.com/VisualStudio/2005/DslTools/InstallerDefinitionModel" 
+  productUrl="InsertProductUrlHere"
+  defaultDirectoryName="RapidEntity"
+  productVersion="1.0.0"
+  requiresCSharp="true"
+  requiresVisualBasic="true"
+  productCode="13014a6f-b943-46f1-a9d3-0a0baef83100"
+  upgradeCode="30533027-25f3-4565-8a81-cc3fc3ca0233"
+  localeId="1033">
+	<dslPackage name="RapidEntity" project="DslPackage" assemblyPath="consist.RapidEntity.DslPackage.dll" registryRoot="SOFTWARE\Microsoft\VisualStudio\9.0">
+		<fileExtensions>
+			<fileExtension name="rapd" extension="rapd" descriptionKey="FileDescription" hasIcon="true" iconId="0"/>
+		</fileExtensions>
+		<supportingAssemblies>
+			<supportingAssembly name="Dsl" project="Dsl" assemblyPath="consist.RapidEntity.Dsl.dll"/>
+      <supportingAssembly name="MySql.Data" assemblyPath="Files\MySql.Data.dll"/>
+		</supportingAssemblies>
+	</dslPackage>
+	<licenseAgreement filePath="Files\EULA.rtf" isEmbedded="true" />
+	<supportingFiles>
+		<supportingFile name="Readme" filePath="Files\Readme.htm" installShortcut="true" shortcutIconPath="Resources\ReadmeShortcut.ico" openAfterInstall="true" />
+	</supportingFiles>
+  <vsProjectTemplates>
+    <vsProjectTemplate localeId="1033" targetDirectories="CSharp" templatePath="Files\Rapid_Entity_Framework.zip" />
+  </vsProjectTemplates>
+	<!--<vsItemTemplates>
+		<vsItemTemplate localeId="1033" targetDirectories="CSharp" project="DslPackage" templatePath="CSharp\1033\RapidEntity.zip"/>
+		<vsItemTemplate localeId="1033" targetDirectories="VisualBasic" project="DslPackage" templatePath="VisualBasic\1033\RapidEntity.zip"/>
+	</vsItemTemplates>-->
+	<dslSchemas>
+		<dslSchema project="Dsl" filePath="GeneratedCode\RapidEntitySchema.xsd"/>
+	</dslSchemas>
+</installerDefinition>

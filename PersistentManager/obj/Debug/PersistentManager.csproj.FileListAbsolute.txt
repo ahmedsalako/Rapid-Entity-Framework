@@ -1,0 +1,5 @@
+C:\projects\rapidentityframework\PersistentManager\bin\Debug\PersistentManager.dll
+C:\projects\rapidentityframework\PersistentManager\bin\Debug\PersistentManager.pdb
+C:\projects\rapidentityframework\PersistentManager\obj\Debug\PersistentManager.dll
+C:\projects\rapidentityframework\PersistentManager\obj\Debug\PersistentManager.pdb
+C:\projects\Rapidentityframework\PersistentManager\obj\Debug\PersistentManager.csprojResolveAssemblyReference.cache

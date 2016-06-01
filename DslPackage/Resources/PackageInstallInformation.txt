@@ -1,0 +1,14 @@
+﻿company name : consistentsoft
+
+package name : Rapid Entity Framework
+
+Package GUID : {AB5A05B5-F41E-40d1-A703-CB0029DCBD44}
+
+Package Version : 1.0
+
+Min Product Edition : Standard
+
+Min Vs Version : VS 2005
+
+
+Package Load Key (PLK) : H3HJMRJCQMR2CZQHI1EIPPCQDJKDD2HEHZQCAQPDKJCHRACQAIRMEDAMDCR2RRHTHJREMDKTE1DCHTQPH2R8HAZMZ1D0ZMHPHQHKP8KCHIEHPAAADRCRDHJ0IEQDPEJ0

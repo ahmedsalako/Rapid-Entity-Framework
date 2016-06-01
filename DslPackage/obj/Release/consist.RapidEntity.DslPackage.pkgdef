@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[$RootKey$\Projects]
+[$RootKey$\Projects\{F184B08F-C81C-45F6-A57F-5ABD9991F28F}]
+[$RootKey$\Projects\{F184B08F-C81C-45F6-A57F-5ABD9991F28F}\RelatedFiles]
+[$RootKey$\Projects\{F184B08F-C81C-45F6-A57F-5ABD9991F28F}\RelatedFiles\.rapd]
+".diagram"=dword:00000002
+[$RootKey$\Projects]
+[$RootKey$\Projects\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}]
+[$RootKey$\Projects\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\RelatedFiles]
+[$RootKey$\Projects\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\RelatedFiles\.rapd]
+".diagram"=dword:00000002
+[$RootKey$\DslTools\Packages\{ae24ea31-9883-4087-9e20-23e7b5a79ba3}]
+@="consist.RapidEntity.DslPackage.RapidEntityPackage"
+[$RootKey$\Packages\{ae24ea31-9883-4087-9e20-23e7b5a79ba3}]
+@="consist.RapidEntity.DslPackage.RapidEntityPackage, consist.RapidEntity.DslPackage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42640404cb3f3a9a"
+"InprocServer32"="%windir%\\system32\\mscoree.dll"
+"Class"="consist.RapidEntity.DslPackage.RapidEntityPackage"
+"Assembly"="consist.RapidEntity.DslPackage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42640404cb3f3a9a"
+[$RootKey$\Editors\{fef902f3-b77f-40d9-9229-02580c178cb8}]
+"Package"="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}"
+[$RootKey$\Editors\{fef902f3-b77f-40d9-9229-02580c178cb8}\Extensions]
+"rapd"=dword:00000020
+[$RootKey$\Editors\{fef902f3-b77f-40d9-9229-02580c178cb8}]
+@="RapidEntityEditorFactory"
+"DisplayName"="#103"
+"Package"="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}"
+"EditorTrustLevel"=dword:00000001
+[$RootKey$\Editors\{fef902f3-b77f-40d9-9229-02580c178cb8}\LogicalViews]
+[$RootKey$\Menus]
+"{ae24ea31-9883-4087-9e20-23e7b5a79ba3}"=", 1000.ctmenu, 1"
+[$RootKey$\ToolWindows\{20fc2e25-12d7-41b9-b100-594e01ed6fc7}]
+@="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}"
+"Name"="consist.RapidEntity.DslPackage.RapidEntityExplorerToolWindow"
+"Orientation"="Right"
+"Style"="Tabbed"
+"Window"="{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+[$RootKey$\ToolWindows\{20fc2e25-12d7-41b9-b100-594e01ed6fc7}\Visibility]
+"{fef902f3-b77f-40d9-9229-02580c178cb8}"=dword:00000000
+[$RootKey$\Packages\{ae24ea31-9883-4087-9e20-23e7b5a79ba3}]
+[$RootKey$\Packages\{ae24ea31-9883-4087-9e20-23e7b5a79ba3}\Toolbox]
+"Default Items"=dword:00000001
+[$RootKey$\TextTemplating]
+[$RootKey$\TextTemplating\DirectiveProcessors]
+[$RootKey$\TextTemplating\DirectiveProcessors\RapidEntityDirectiveProcessor]
+@="A directive processor that provides access to RapidEntity files"
+"Class"="consist.RapidEntity.RapidEntityDirectiveProcessor"
+"Assembly"="consist.RapidEntity.Dsl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42640404cb3f3a9a"
+

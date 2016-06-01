@@ -1,0 +1,1311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="consist.RapidEntity.RapidEntityDomainModel.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.RapidEntity</value>
+    <comment>Description for DslLibrary &apos;RapidEntity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.RapidEntityDomainModel.DisplayName" xml:space="preserve">
+    <value>Rapid Entity Diagrams</value>
+    <comment>DisplayName for DslLibrary &apos;RapidEntity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.NamedElement.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.NamedElement.DisplayName" xml:space="preserve">
+    <value>Named Element</value>
+    <comment>DisplayName for DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.NamedElement/Name.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.NamedElement/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRoot.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ModelRoot&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRoot.DisplayName" xml:space="preserve">
+    <value>Model Root</value>
+    <comment>DisplayName for DomainClass &apos;ModelRoot&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass.DisplayName" xml:space="preserve">
+    <value>Model Class</value>
+    <comment>DisplayName for DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/Kind.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;Kind&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/Kind.DisplayName" xml:space="preserve">
+    <value>Kind</value>
+    <comment>DisplayName for DomainProperty &apos;Kind&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/IsAbstract.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;IsAbstract&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/IsAbstract.DisplayName" xml:space="preserve">
+    <value>Is Abstract</value>
+    <comment>DisplayName for DomainProperty &apos;IsAbstract&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/TableName.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelClass.Table Name</value>
+    <comment>Description for DomainProperty &apos;TableName&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/TableName.DisplayName" xml:space="preserve">
+    <value>Table Name</value>
+    <comment>DisplayName for DomainProperty &apos;TableName&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/ParentName.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelClass.Parent Name</value>
+    <comment>Description for DomainProperty &apos;ParentName&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelClass/ParentName.DisplayName" xml:space="preserve">
+    <value>Parent Name</value>
+    <comment>DisplayName for DomainProperty &apos;ParentName&apos; on DomainClass &apos;ModelClass&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Field.Description" xml:space="preserve">
+    <value>An attribute of a class.</value>
+    <comment>Description for DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Comment.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Comment/Text.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;Text&apos; on DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Comment/Text.DisplayName" xml:space="preserve">
+    <value>Text</value>
+    <comment>DisplayName for DomainProperty &apos;Text&apos; on DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelType.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ModelType&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelType.DisplayName" xml:space="preserve">
+    <value>Model Type</value>
+    <comment>DisplayName for DomainClass &apos;ModelType&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassModelElement.Description" xml:space="preserve">
+    <value>Element with a Description</value>
+    <comment>Description for DomainClass &apos;ClassModelElement&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassModelElement.DisplayName" xml:space="preserve">
+    <value>Class Model Element</value>
+    <comment>DisplayName for DomainClass &apos;ClassModelElement&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.PersistentKey.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.PersistentKey</value>
+    <comment>Description for DomainClass &apos;PersistentKey&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.PersistentKey.DisplayName" xml:space="preserve">
+    <value>Persistent Key</value>
+    <comment>DisplayName for DomainClass &apos;PersistentKey&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.PersistentKey/IsAutoKey.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.PersistentKey.Is Auto Key</value>
+    <comment>Description for DomainProperty &apos;IsAutoKey&apos; on DomainClass &apos;PersistentKey&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.PersistentKey/IsAutoKey.DisplayName" xml:space="preserve">
+    <value>Is Auto Key</value>
+    <comment>DisplayName for DomainProperty &apos;IsAutoKey&apos; on DomainClass &apos;PersistentKey&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelAttribute</value>
+    <comment>Description for DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute.DisplayName" xml:space="preserve">
+    <value>Model Attribute</value>
+    <comment>DisplayName for DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/Type.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelAttribute.Type</value>
+    <comment>Description for DomainProperty &apos;Type&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/Type.DisplayName" xml:space="preserve">
+    <value>Type</value>
+    <comment>DisplayName for DomainProperty &apos;Type&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/ColumnName.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelAttribute.Column Name</value>
+    <comment>Description for DomainProperty &apos;ColumnName&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/ColumnName.DisplayName" xml:space="preserve">
+    <value>Column Name</value>
+    <comment>DisplayName for DomainProperty &apos;ColumnName&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/AllowNull.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelAttribute.Allow Null</value>
+    <comment>Description for DomainProperty &apos;AllowNull&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/AllowNull.DisplayName" xml:space="preserve">
+    <value>Allow Null</value>
+    <comment>DisplayName for DomainProperty &apos;AllowNull&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/Precision.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelAttribute.Precision</value>
+    <comment>Description for DomainProperty &apos;Precision&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/Precision.DisplayName" xml:space="preserve">
+    <value>Precision</value>
+    <comment>DisplayName for DomainProperty &apos;Precision&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/Scale.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ModelAttribute.Scale</value>
+    <comment>Description for DomainProperty &apos;Scale&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelAttribute/Scale.DisplayName" xml:space="preserve">
+    <value>Scale</value>
+    <comment>DisplayName for DomainProperty &apos;Scale&apos; on DomainClass &apos;ModelAttribute&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship.Description" xml:space="preserve">
+    <value>Associations between Classes.</value>
+    <comment>Description for DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship.DisplayName" xml:space="preserve">
+    <value>Relationship</value>
+    <comment>DisplayName for DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/SourceMultiplicity.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;SourceMultiplicity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/SourceMultiplicity.DisplayName" xml:space="preserve">
+    <value>Source Multiplicity</value>
+    <comment>DisplayName for DomainProperty &apos;SourceMultiplicity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/SourceRoleName.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;SourceRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/SourceRoleName.DisplayName" xml:space="preserve">
+    <value>Source Role Name</value>
+    <comment>DisplayName for DomainProperty &apos;SourceRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/TargetMultiplicity.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;TargetMultiplicity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/TargetMultiplicity.DisplayName" xml:space="preserve">
+    <value>Target Multiplicity</value>
+    <comment>DisplayName for DomainProperty &apos;TargetMultiplicity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/TargetRoleName.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;TargetRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/TargetRoleName.DisplayName" xml:space="preserve">
+    <value>Target Role Name</value>
+    <comment>DisplayName for DomainProperty &apos;TargetRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ReferenceColumn.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.Reference Column</value>
+    <comment>Description for DomainProperty &apos;ReferenceColumn&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ReferenceColumn.DisplayName" xml:space="preserve">
+    <value>Reference Column</value>
+    <comment>DisplayName for DomainProperty &apos;ReferenceColumn&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ReferenceEntity.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.Reference Entity</value>
+    <comment>Description for DomainProperty &apos;ReferenceEntity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ReferenceEntity.DisplayName" xml:space="preserve">
+    <value>Reference Entity</value>
+    <comment>DisplayName for DomainProperty &apos;ReferenceEntity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/OwnerEntity.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.Owner Entity</value>
+    <comment>Description for DomainProperty &apos;OwnerEntity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/OwnerEntity.DisplayName" xml:space="preserve">
+    <value>Owner Entity</value>
+    <comment>DisplayName for DomainProperty &apos;OwnerEntity&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/DefaultRoleName.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.Default Role Name</value>
+    <comment>Description for DomainProperty &apos;DefaultRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/DefaultRoleName.DisplayName" xml:space="preserve">
+    <value>Default Role Name</value>
+    <comment>DisplayName for DomainProperty &apos;DefaultRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ManyRoleName.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.Many Role Name</value>
+    <comment>Description for DomainProperty &apos;ManyRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ManyRoleName.DisplayName" xml:space="preserve">
+    <value>Many Role Name</value>
+    <comment>DisplayName for DomainProperty &apos;ManyRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/OneRoleName.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.One Role Name</value>
+    <comment>Description for DomainProperty &apos;OneRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/OneRoleName.DisplayName" xml:space="preserve">
+    <value>One Role Name</value>
+    <comment>DisplayName for DomainProperty &apos;OneRoleName&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ReferencedKey.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.Referenced Key</value>
+    <comment>Description for DomainProperty &apos;ReferencedKey&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/ReferencedKey.DisplayName" xml:space="preserve">
+    <value>Referenced Key</value>
+    <comment>DisplayName for DomainProperty &apos;ReferencedKey&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Type.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.BaseRelationship.Type</value>
+    <comment>Description for DomainProperty &apos;Type&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Type.DisplayName" xml:space="preserve">
+    <value>Type</value>
+    <comment>DisplayName for DomainProperty &apos;Type&apos; on DomainClass &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Source.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Source&apos; on DomainRelationship &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Source.DisplayName" xml:space="preserve">
+    <value>Source</value>
+    <comment>DisplayName for DomainRole &apos;Source&apos; on DomainRelationship &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Source.PropertyDisplayName" xml:space="preserve">
+    <value>Targets</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Source&apos; on DomainRelationship &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Target.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Target&apos; on DomainRelationship &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Target.DisplayName" xml:space="preserve">
+    <value>Target</value>
+    <comment>DisplayName for DomainRole &apos;Target&apos; on DomainRelationship &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BaseRelationship/Target.PropertyDisplayName" xml:space="preserve">
+    <value>Sources</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Target&apos; on DomainRelationship &apos;BaseRelationship&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields.DisplayName" xml:space="preserve">
+    <value>Class Has Fields</value>
+    <comment>DisplayName for DomainClass &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields/ModelClass.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;ModelClass&apos; on DomainRelationship &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields/ModelClass.DisplayName" xml:space="preserve">
+    <value>Model Class</value>
+    <comment>DisplayName for DomainRole &apos;ModelClass&apos; on DomainRelationship &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields/ModelClass.PropertyDisplayName" xml:space="preserve">
+    <value>Fields</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModelClass&apos; on DomainRelationship &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields/Attribute.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Attribute&apos; on DomainRelationship &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields/Attribute.DisplayName" xml:space="preserve">
+    <value>Attribute</value>
+    <comment>DisplayName for DomainRole &apos;Attribute&apos; on DomainRelationship &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasFields/Attribute.PropertyDisplayName" xml:space="preserve">
+    <value>Model Class</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Attribute&apos; on DomainRelationship &apos;ClassHasFields&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments.DisplayName" xml:space="preserve">
+    <value>Model Root Has Comments</value>
+    <comment>DisplayName for DomainClass &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments/ModelRoot.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;ModelRoot&apos; on DomainRelationship &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments/ModelRoot.DisplayName" xml:space="preserve">
+    <value>Model Root</value>
+    <comment>DisplayName for DomainRole &apos;ModelRoot&apos; on DomainRelationship &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments/ModelRoot.PropertyDisplayName" xml:space="preserve">
+    <value>Comments</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModelRoot&apos; on DomainRelationship &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments/Comment.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasComments/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Model Root</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ModelRootHasComments&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization.Description" xml:space="preserve">
+    <value>Inheritance between Classes.</value>
+    <comment>Description for DomainClass &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization.DisplayName" xml:space="preserve">
+    <value>Generalization</value>
+    <comment>DisplayName for DomainClass &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Discriminator.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;Discriminator&apos; on DomainClass &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Discriminator.DisplayName" xml:space="preserve">
+    <value>Discriminator</value>
+    <comment>DisplayName for DomainProperty &apos;Discriminator&apos; on DomainClass &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Superclass.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Superclass&apos; on DomainRelationship &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Superclass.DisplayName" xml:space="preserve">
+    <value>Superclass</value>
+    <comment>DisplayName for DomainRole &apos;Superclass&apos; on DomainRelationship &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Superclass.PropertyDisplayName" xml:space="preserve">
+    <value>Subclasses</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Superclass&apos; on DomainRelationship &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Subclass.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Subclass&apos; on DomainRelationship &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Subclass.DisplayName" xml:space="preserve">
+    <value>Subclass</value>
+    <comment>DisplayName for DomainRole &apos;Subclass&apos; on DomainRelationship &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Generalization/Subclass.PropertyDisplayName" xml:space="preserve">
+    <value>Superclass</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Subclass&apos; on DomainRelationship &apos;Generalization&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne.DisplayName" xml:space="preserve">
+    <value>One To One</value>
+    <comment>DisplayName for DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/RelationColumn.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.OneToOne.Relation Column</value>
+    <comment>Description for DomainProperty &apos;RelationColumn&apos; on DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/RelationColumn.DisplayName" xml:space="preserve">
+    <value>Relation Column</value>
+    <comment>DisplayName for DomainProperty &apos;RelationColumn&apos; on DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/Cascade.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.OneToOne.Cascade</value>
+    <comment>Description for DomainProperty &apos;Cascade&apos; on DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/Cascade.DisplayName" xml:space="preserve">
+    <value>Cascade</value>
+    <comment>DisplayName for DomainProperty &apos;Cascade&apos; on DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/IsImported.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.OneToOne.Is Imported</value>
+    <comment>Description for DomainProperty &apos;IsImported&apos; on DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/IsImported.DisplayName" xml:space="preserve">
+    <value>Is Imported</value>
+    <comment>DisplayName for DomainProperty &apos;IsImported&apos; on DomainClass &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/BidirectionalSource.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;BidirectionalSource&apos; on DomainRelationship &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/BidirectionalSource.DisplayName" xml:space="preserve">
+    <value>Bidirectional Source</value>
+    <comment>DisplayName for DomainRole &apos;BidirectionalSource&apos; on DomainRelationship &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/BidirectionalSource.PropertyDisplayName" xml:space="preserve">
+    <value>One To One Targets</value>
+    <comment>PropertyDisplayName for DomainRole &apos;BidirectionalSource&apos; on DomainRelationship &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/BidirectionalTarget.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;BidirectionalTarget&apos; on DomainRelationship &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/BidirectionalTarget.DisplayName" xml:space="preserve">
+    <value>Bidirectional Target</value>
+    <comment>DisplayName for DomainRole &apos;BidirectionalTarget&apos; on DomainRelationship &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToOne/BidirectionalTarget.PropertyDisplayName" xml:space="preserve">
+    <value>One To One Sources</value>
+    <comment>PropertyDisplayName for DomainRole &apos;BidirectionalTarget&apos; on DomainRelationship &apos;OneToOne&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany.DisplayName" xml:space="preserve">
+    <value>One To Many</value>
+    <comment>DisplayName for DomainClass &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/RelationColumn.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.OneToMany.Relation Column</value>
+    <comment>Description for DomainProperty &apos;RelationColumn&apos; on DomainClass &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/RelationColumn.DisplayName" xml:space="preserve">
+    <value>Relation Column</value>
+    <comment>DisplayName for DomainProperty &apos;RelationColumn&apos; on DomainClass &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/Cascade.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.OneToMany.Cascade</value>
+    <comment>Description for DomainProperty &apos;Cascade&apos; on DomainClass &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/Cascade.DisplayName" xml:space="preserve">
+    <value>Cascade</value>
+    <comment>DisplayName for DomainProperty &apos;Cascade&apos; on DomainClass &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/AggregationSource.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;AggregationSource&apos; on DomainRelationship &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/AggregationSource.DisplayName" xml:space="preserve">
+    <value>Aggregation Source</value>
+    <comment>DisplayName for DomainRole &apos;AggregationSource&apos; on DomainRelationship &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/AggregationSource.PropertyDisplayName" xml:space="preserve">
+    <value>One To Many Targets</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AggregationSource&apos; on DomainRelationship &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/AggregationTarget.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;AggregationTarget&apos; on DomainRelationship &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/AggregationTarget.DisplayName" xml:space="preserve">
+    <value>Aggregation Target</value>
+    <comment>DisplayName for DomainRole &apos;AggregationTarget&apos; on DomainRelationship &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OneToMany/AggregationTarget.PropertyDisplayName" xml:space="preserve">
+    <value>One To Many Sources</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AggregationTarget&apos; on DomainRelationship &apos;OneToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasTypes.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ModelRootHasTypes&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasTypes.DisplayName" xml:space="preserve">
+    <value>Model Root Has Types</value>
+    <comment>DisplayName for DomainClass &apos;ModelRootHasTypes&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasTypes/ModelRoot.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;ModelRoot&apos; on DomainRelationship &apos;ModelRootHasTypes&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasTypes/ModelRoot.DisplayName" xml:space="preserve">
+    <value>Model Root</value>
+    <comment>DisplayName for DomainRole &apos;ModelRoot&apos; on DomainRelationship &apos;ModelRootHasTypes&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasTypes/ModelRoot.PropertyDisplayName" xml:space="preserve">
+    <value>Types</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModelRoot&apos; on DomainRelationship &apos;ModelRootHasTypes&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasTypes/Type.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Type&apos; on DomainRelationship &apos;ModelRootHasTypes&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ModelRootHasTypes/Type.DisplayName" xml:space="preserve">
+    <value>Type</value>
+    <comment>DisplayName for DomainRole &apos;Type&apos; on DomainRelationship &apos;ModelRootHasTypes&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects.DisplayName" xml:space="preserve">
+    <value>Comment References Subjects</value>
+    <comment>DisplayName for DomainClass &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects/Comment.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Subjects</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects/Subject.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Subject&apos; on DomainRelationship &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects/Subject.DisplayName" xml:space="preserve">
+    <value>Subject</value>
+    <comment>DisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentReferencesSubjects/Subject.PropertyDisplayName" xml:space="preserve">
+    <value>Comments</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Subject&apos; on DomainRelationship &apos;CommentReferencesSubjects&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany</value>
+    <comment>Description for DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany.DisplayName" xml:space="preserve">
+    <value>Many To Many</value>
+    <comment>DisplayName for DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/JoinTable.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany.Join Table</value>
+    <comment>Description for DomainProperty &apos;JoinTable&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/JoinTable.DisplayName" xml:space="preserve">
+    <value>Join Table</value>
+    <comment>DisplayName for DomainProperty &apos;JoinTable&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/JoinColumn.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany.Join Column</value>
+    <comment>Description for DomainProperty &apos;JoinColumn&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/JoinColumn.DisplayName" xml:space="preserve">
+    <value>Join Column</value>
+    <comment>DisplayName for DomainProperty &apos;JoinColumn&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/OwnerColumn.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany.Owner Column</value>
+    <comment>Description for DomainProperty &apos;OwnerColumn&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/OwnerColumn.DisplayName" xml:space="preserve">
+    <value>Owner Column</value>
+    <comment>DisplayName for DomainProperty &apos;OwnerColumn&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/Cascade.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany.Cascade</value>
+    <comment>Description for DomainProperty &apos;Cascade&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/Cascade.DisplayName" xml:space="preserve">
+    <value>Cascade</value>
+    <comment>DisplayName for DomainProperty &apos;Cascade&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/OwnerKey.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany.Owner Key</value>
+    <comment>Description for DomainProperty &apos;OwnerKey&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/OwnerKey.DisplayName" xml:space="preserve">
+    <value>Owner Key</value>
+    <comment>DisplayName for DomainProperty &apos;OwnerKey&apos; on DomainClass &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/SourceModelClass.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany.SourceModelClass</value>
+    <comment>Description for DomainRole &apos;SourceModelClass&apos; on DomainRelationship &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/SourceModelClass.DisplayName" xml:space="preserve">
+    <value>Source Model Class</value>
+    <comment>DisplayName for DomainRole &apos;SourceModelClass&apos; on DomainRelationship &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/SourceModelClass.PropertyDisplayName" xml:space="preserve">
+    <value>Many Target Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceModelClass&apos; on DomainRelationship &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/TargetModelClass.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToMany.TargetModelClass</value>
+    <comment>Description for DomainRole &apos;TargetModelClass&apos; on DomainRelationship &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/TargetModelClass.DisplayName" xml:space="preserve">
+    <value>Target Model Class</value>
+    <comment>DisplayName for DomainRole &apos;TargetModelClass&apos; on DomainRelationship &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToMany/TargetModelClass.PropertyDisplayName" xml:space="preserve">
+    <value>Many Source Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetModelClass&apos; on DomainRelationship &apos;ManyToMany&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassHasPersistentKeys</value>
+    <comment>Description for DomainClass &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys.DisplayName" xml:space="preserve">
+    <value>Class Has Persistent Keys</value>
+    <comment>DisplayName for DomainClass &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys/ModelClass.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassHasPersistentKeys.ModelClass</value>
+    <comment>Description for DomainRole &apos;ModelClass&apos; on DomainRelationship &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys/ModelClass.DisplayName" xml:space="preserve">
+    <value>Model Class</value>
+    <comment>DisplayName for DomainRole &apos;ModelClass&apos; on DomainRelationship &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys/ModelClass.PropertyDisplayName" xml:space="preserve">
+    <value>Persistent Keys</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ModelClass&apos; on DomainRelationship &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys/PersistentKey.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassHasPersistentKeys.PersistentKey</value>
+    <comment>Description for DomainRole &apos;PersistentKey&apos; on DomainRelationship &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys/PersistentKey.DisplayName" xml:space="preserve">
+    <value>Persistent Key</value>
+    <comment>DisplayName for DomainRole &apos;PersistentKey&apos; on DomainRelationship &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassHasPersistentKeys/PersistentKey.PropertyDisplayName" xml:space="preserve">
+    <value>Model Class</value>
+    <comment>PropertyDisplayName for DomainRole &apos;PersistentKey&apos; on DomainRelationship &apos;ClassHasPersistentKeys&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Public.DisplayName" xml:space="preserve">
+    <value>Public</value>
+    <comment>Display name for EnumerationLiteral &apos;Public&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Public.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Public&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Assembly.DisplayName" xml:space="preserve">
+    <value>Assembly</value>
+    <comment>Display name for EnumerationLiteral &apos;Assembly&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Assembly.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Assembly&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Private.DisplayName" xml:space="preserve">
+    <value>Private</value>
+    <comment>Display name for EnumerationLiteral &apos;Private&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Private.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Private&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Family.DisplayName" xml:space="preserve">
+    <value>Family</value>
+    <comment>Display name for EnumerationLiteral &apos;Family&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/Family.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Family&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/FamilyOrAssembly.DisplayName" xml:space="preserve">
+    <value>FamilyOrAssembly</value>
+    <comment>Display name for EnumerationLiteral &apos;FamilyOrAssembly&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/FamilyOrAssembly.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;FamilyOrAssembly&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/FamilyAndAssembly.DisplayName" xml:space="preserve">
+    <value>FamilyAndAssembly</value>
+    <comment>Display name for EnumerationLiteral &apos;FamilyAndAssembly&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AccessModifier/FamilyAndAssembly.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;FamilyAndAssembly&apos; on DomainEnumeration &apos;AccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.TypeAccessModifier/Public.DisplayName" xml:space="preserve">
+    <value>Public</value>
+    <comment>Display name for EnumerationLiteral &apos;Public&apos; on DomainEnumeration &apos;TypeAccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.TypeAccessModifier/Public.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Public&apos; on DomainEnumeration &apos;TypeAccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.TypeAccessModifier/Private.DisplayName" xml:space="preserve">
+    <value>Private</value>
+    <comment>Display name for EnumerationLiteral &apos;Private&apos; on DomainEnumeration &apos;TypeAccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.TypeAccessModifier/Private.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Private&apos; on DomainEnumeration &apos;TypeAccessModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.InheritanceModifier/None.DisplayName" xml:space="preserve">
+    <value>None</value>
+    <comment>Display name for EnumerationLiteral &apos;None&apos; on DomainEnumeration &apos;InheritanceModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.InheritanceModifier/None.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;None&apos; on DomainEnumeration &apos;InheritanceModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.InheritanceModifier/Abstract.DisplayName" xml:space="preserve">
+    <value>Abstract</value>
+    <comment>Display name for EnumerationLiteral &apos;Abstract&apos; on DomainEnumeration &apos;InheritanceModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.InheritanceModifier/Abstract.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Abstract&apos; on DomainEnumeration &apos;InheritanceModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.InheritanceModifier/Sealed.DisplayName" xml:space="preserve">
+    <value>Sealed</value>
+    <comment>Display name for EnumerationLiteral &apos;Sealed&apos; on DomainEnumeration &apos;InheritanceModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.InheritanceModifier/Sealed.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Sealed&apos; on DomainEnumeration &apos;InheritanceModifier&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/ZeroMany.DisplayName" xml:space="preserve">
+    <value>ZeroMany</value>
+    <comment>Display name for EnumerationLiteral &apos;ZeroMany&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/ZeroMany.Description" xml:space="preserve">
+    <value>0..*</value>
+    <comment>Description for EnumerationLiteral &apos;ZeroMany&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/One.DisplayName" xml:space="preserve">
+    <value>One</value>
+    <comment>Display name for EnumerationLiteral &apos;One&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/One.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;One&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/ZeroOne.DisplayName" xml:space="preserve">
+    <value>ZeroOne</value>
+    <comment>Display name for EnumerationLiteral &apos;ZeroOne&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/ZeroOne.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;ZeroOne&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/OneMany.DisplayName" xml:space="preserve">
+    <value>OneMany</value>
+    <comment>Display name for EnumerationLiteral &apos;OneMany&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.Multiplicity/OneMany.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;OneMany&apos; on DomainEnumeration &apos;Multiplicity&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OperationConcurrency/Sequential.DisplayName" xml:space="preserve">
+    <value>Sequential</value>
+    <comment>Display name for EnumerationLiteral &apos;Sequential&apos; on DomainEnumeration &apos;OperationConcurrency&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OperationConcurrency/Sequential.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Sequential&apos; on DomainEnumeration &apos;OperationConcurrency&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OperationConcurrency/Guarded.DisplayName" xml:space="preserve">
+    <value>Guarded</value>
+    <comment>Display name for EnumerationLiteral &apos;Guarded&apos; on DomainEnumeration &apos;OperationConcurrency&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OperationConcurrency/Guarded.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Guarded&apos; on DomainEnumeration &apos;OperationConcurrency&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OperationConcurrency/Concurrent.DisplayName" xml:space="preserve">
+    <value>Concurrent</value>
+    <comment>Display name for EnumerationLiteral &apos;Concurrent&apos; on DomainEnumeration &apos;OperationConcurrency&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.OperationConcurrency/Concurrent.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for EnumerationLiteral &apos;Concurrent&apos; on DomainEnumeration &apos;OperationConcurrency&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassShape.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ClassShape&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassShape.DisplayName" xml:space="preserve">
+    <value>Class Shape</value>
+    <comment>DisplayName for DomainClass &apos;ClassShape&apos;</comment>
+  </data>
+  <data name="ClassShapeAttributesCompartmentTitle" xml:space="preserve">
+    <value>Persistent Fields</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="ClassShapeKeysCompartmentTitle" xml:space="preserve">
+    <value>Keys</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="ClassShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentBoxShape.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;CommentBoxShape&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentBoxShape.DisplayName" xml:space="preserve">
+    <value>Comment Box Shape</value>
+    <comment>DisplayName for DomainClass &apos;CommentBoxShape&apos;</comment>
+  </data>
+  <data name="CommentBoxShapeCommentDefaultText" xml:space="preserve">
+    <value>BusinessRulesShapeNameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="consist.RapidEntity.RelationshipConnector.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;RelationshipConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.RelationshipConnector.DisplayName" xml:space="preserve">
+    <value>Relationship Connector</value>
+    <comment>DisplayName for DomainClass &apos;RelationshipConnector&apos;</comment>
+  </data>
+  <data name="RelationshipConnectorTargetMultiplicityDefaultText" xml:space="preserve">
+    <value>TargetMultiplicity</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="RelationshipConnectorSourceMultiplicityDefaultText" xml:space="preserve">
+    <value>SourceMultiplicity</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="RelationshipConnectorTargetRoleNameDefaultText" xml:space="preserve">
+    <value>TargetRoleName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="RelationshipConnectorSourceRoleNameDefaultText" xml:space="preserve">
+    <value>SourceRoleName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="consist.RapidEntity.BidirectionalConnector.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;BidirectionalConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.BidirectionalConnector.DisplayName" xml:space="preserve">
+    <value>Bidirectional Connector</value>
+    <comment>DisplayName for DomainClass &apos;BidirectionalConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AggregationConnector.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;AggregationConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.AggregationConnector.DisplayName" xml:space="preserve">
+    <value>Aggregation Connector</value>
+    <comment>DisplayName for DomainClass &apos;AggregationConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.GeneralizationConnector.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;GeneralizationConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.GeneralizationConnector.DisplayName" xml:space="preserve">
+    <value>Generalization Connector</value>
+    <comment>DisplayName for DomainClass &apos;GeneralizationConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentConnector.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;CommentConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.CommentConnector.DisplayName" xml:space="preserve">
+    <value>Comment Connector</value>
+    <comment>DisplayName for DomainClass &apos;CommentConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToManyConnector.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ManyToManyConnector</value>
+    <comment>Description for DomainClass &apos;ManyToManyConnector&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ManyToManyConnector.DisplayName" xml:space="preserve">
+    <value>Many To Many Connector</value>
+    <comment>DisplayName for DomainClass &apos;ManyToManyConnector&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>Rapid Entity Diagrams (*.rapd)|*.rapd</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>Rapid Entity Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram.DisplayName" xml:space="preserve">
+    <value>Class Diagram</value>
+    <comment>DisplayName for DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/EncryptedConnection.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassDiagram.Encrypted Connection</value>
+    <comment>Description for DomainProperty &apos;EncryptedConnection&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/EncryptedConnection.DisplayName" xml:space="preserve">
+    <value>Encrypted Connection</value>
+    <comment>DisplayName for DomainProperty &apos;EncryptedConnection&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/ConnectionString.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassDiagram.Connection String</value>
+    <comment>Description for DomainProperty &apos;ConnectionString&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/ConnectionString.DisplayName" xml:space="preserve">
+    <value>Connection String</value>
+    <comment>DisplayName for DomainProperty &apos;ConnectionString&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/NameSingularization.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassDiagram.Name Singularization</value>
+    <comment>Description for DomainProperty &apos;NameSingularization&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/NameSingularization.DisplayName" xml:space="preserve">
+    <value>Name Singularization</value>
+    <comment>DisplayName for DomainProperty &apos;NameSingularization&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/ProviderGuid.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassDiagram.Provider Guid</value>
+    <comment>Description for DomainProperty &apos;ProviderGuid&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/ProviderGuid.DisplayName" xml:space="preserve">
+    <value>Provider Guid</value>
+    <comment>DisplayName for DomainProperty &apos;ProviderGuid&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/RemovableTablePrefixes.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassDiagram.Removable Table Prefixes</value>
+    <comment>Description for DomainProperty &apos;RemovableTablePrefixes&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/RemovableTablePrefixes.DisplayName" xml:space="preserve">
+    <value>Removable Table Prefixes</value>
+    <comment>DisplayName for DomainProperty &apos;RemovableTablePrefixes&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/HasGrid.Description" xml:space="preserve">
+    <value>Description for consist.RapidEntity.ClassDiagram.Has Grid</value>
+    <comment>Description for DomainProperty &apos;HasGrid&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="consist.RapidEntity.ClassDiagram/HasGrid.DisplayName" xml:space="preserve">
+    <value>Has Grid</value>
+    <comment>DisplayName for DomainProperty &apos;HasGrid&apos; on DomainClass &apos;ClassDiagram&apos;</comment>
+  </data>
+  <data name="Class DiagramsToolboxTab" xml:space="preserve">
+    <value>Class Diagrams</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="ModelClassToolboxItem" xml:space="preserve">
+    <value>Entity</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ModelClassToolboxTooltip" xml:space="preserve">
+    <value>Create a Class</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="BidirectionalAssociationToolboxItem" xml:space="preserve">
+    <value>One To One</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="BidirectionalAssociationToolboxTooltip" xml:space="preserve">
+    <value>Create a Bidirectional link</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="AggregationToolboxItem" xml:space="preserve">
+    <value>One to Many</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AggregationToolboxTooltip" xml:space="preserve">
+    <value>Create an Aggregation link</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="GeneralizationToolboxItem" xml:space="preserve">
+    <value>Inheritance</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="GeneralizationToolboxTooltip" xml:space="preserve">
+    <value>Create a Generalization or Implementation link</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentToolboxItem" xml:space="preserve">
+    <value>Comment</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentToolboxTooltip" xml:space="preserve">
+    <value>Create a Comment</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentsReferenceTypesToolboxItem" xml:space="preserve">
+    <value>Comment Link</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentsReferenceTypesToolboxTooltip" xml:space="preserve">
+    <value>Link a comment to an element</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ClassShapeArtifactIconDefaultImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\artifact_logo.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Icon decorator default image</comment>
+  </data>
+  <data name="ModelClassExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\artifact_logo.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ModelClassToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ClassTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="BidirectionalAssociationToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\UnidirectionTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="AggregationToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\AggregationTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="GeneralizationToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\generalizationtool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\commenttool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentsReferenceTypesToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\commentlinktool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

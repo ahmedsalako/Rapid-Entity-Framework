@@ -1,0 +1,6 @@
+﻿Discovered types of mappings today (Persistence Ignorance)
+==========================================================
+1. Attribute Mapping
+2. Xml Mapping
+3. Attribute Declarative Mapping. (Create a method in the configuration base class that will take two assembly names as parameter, one for models and one of declarative)
+4. Lamda Mapping

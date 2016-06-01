@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="ae24ea31-9883-4087-9e20-23e7b5a79ba3">
+    <Name>Rapid Entity Diagrams</Name>
+    <Author>consist</Author>
+    <Version>1.0.0.0</Version>
+    <Description>Description for consist.RapidEntity.RapidEntity</Description>
+    <Locale>1033</Locale>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Pro</Edition>
+        <Edition>VST_All</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References/>
+  <Content>
+    <!-- "Dsl", "DslPackage" represent the VS Project names 
+          They would need to be updated if those project names are changed in the VS Solution -->
+    <VsPackage>consist.RapidEntity.DslPackage.pkgdef</VsPackage>
+    <MefComponent>consist.RapidEntity.Dsl.dll</MefComponent>
+    <MefComponent>consist.RapidEntity.DslPackage.dll</MefComponent>
+    <!-- Custom extensions should come here (and in the source.extension.tt file otherwise
+         it will be overriden next time the template are transformed:
+         For instance:
+         
+             <CustomExtension Type="dll">Fabrikam.MyFavoriteLibrary</CustomExtension>
+    -->
+  </Content>
+</Vsix>

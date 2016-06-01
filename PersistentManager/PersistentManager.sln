@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentManager", "PersistentManager.csproj", "{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = PersistentManager.csproj
+		SccProjectName0 = \u0022$/Profile.root/Profile/WebPart/PersistentManager\u0022,\u0020TAAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585E2EFC-68D7-409C-BFF2-6CBE8DE06ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

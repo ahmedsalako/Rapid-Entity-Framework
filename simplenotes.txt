@@ -1,1 +1,2 @@
 Rapid is now moved to github
+same framework added for rapid development

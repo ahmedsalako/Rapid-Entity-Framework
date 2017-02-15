@@ -1,0 +1,31 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TemplateData>
+    <Name Package="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}" ID="107"/>
+    <Description Package="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}" ID="107"/>
+    <Icon Package="{ae24ea31-9883-4087-9e20-23e7b5a79ba3}" ID="201" />
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>362</SortOrder>
+    <DefaultName>Rapid Entity Wizard</DefaultName>
+  </TemplateData>
+  <!--<TemplateContent>
+    <ProjectItem TargetFileName="$fileinputname$.rapd">rapd.rapd</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$.rapd.diagram">rapd.diagram</ProjectItem>
+  </TemplateContent>-->
+  <TemplateContent>
+    <Project File="MyTemplate.csproj">
+          <ProjectItem>Form1.cs</ProjectItem>
+          <ProjectItem>Form1.Designer.cs</ProjectItem>
+          <ProjectItem>Program.cs</ProjectItem>
+          <ProjectItem>Properties\AssemblyInfo.cs</ProjectItem>
+          <ProjectItem>Properties\Resources.resx</ProjectItem>
+          <ProjectItem>Properties\Resources.Designer.cs</ProjectItem>
+          <ProjectItem>Properties\Settings.settings</ProjectItem>
+          <ProjectItem>Properties\Settings.Designer.cs</ProjectItem>
+        </Project>
+  </TemplateContent>
+  <!--<WizardExtension>
+    <Assembly>wizardvb1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e58463dcf7e9cb7</Assembly>
+    <FullClassName>CustomWizards.Wizard1</FullClassName>
+  </WizardExtension>-->
+</VSTemplate>

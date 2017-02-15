@@ -163,3 +163,6 @@ C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Deb
 C:\projects\rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb
 C:\projects\Rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csprojResolveAssemblyReference.cache
 C:\projects\Rapidentityframework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.csproj.GenerateResource.Cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\PersistentFrameworkTest\bin\Debug\PersistentFrameworkTest.exe.config
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.exe
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\PersistentFrameworkTest\obj\Debug\PersistentFrameworkTest.pdb

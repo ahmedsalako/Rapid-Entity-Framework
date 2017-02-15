@@ -31,7 +31,7 @@
     </SccProvider>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>C:\projects\Rapidentityframework\Backup\DslPackage\</UpgradeBackupLocation>
+    <UpgradeBackupLocation>C:\projects\rapidbranches\Rapid-Entity-Framework\Backup1\DslPackage\</UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

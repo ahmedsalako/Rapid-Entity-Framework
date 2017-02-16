@@ -48,3 +48,11 @@ C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidA
 C:\projects\rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb
 C:\projects\Rapidentityframework\RapidEntityTest\RapidAsService\bin\RapidAsService.dll.config
 C:\projects\Rapidentityframework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.csprojResolveAssemblyReference.cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\bin\RapidAsService.dll.config
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\bin\RapidAsService.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\bin\RapidAsService.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\bin\PersistentManager.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\bin\PersistentManager.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.csprojResolveAssemblyReference.cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\RapidAsService\obj\Debug\RapidAsService.pdb

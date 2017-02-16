@@ -9,7 +9,7 @@ namespace UnitTestProject.Cache
         [TestMethod]
         public void TestAddPropertyChangeListener()
         {
-            //CacheObject cacheObject;
+            CacheObject cacheObject;
         }
     }
 }

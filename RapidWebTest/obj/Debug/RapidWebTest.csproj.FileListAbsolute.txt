@@ -71,3 +71,13 @@ C:\projects\rapidentityframework\RapidWebTest\obj\Debug\RapidWebTest.dll
 C:\projects\rapidentityframework\RapidWebTest\obj\Debug\RapidWebTest.pdb
 C:\projects\Rapidentityframework\RapidWebTest\bin\RapidWebTest.dll.config
 C:\projects\Rapidentityframework\RapidWebTest\obj\Debug\RapidWebTest.csprojResolveAssemblyReference.cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\bin\RapidWebTest.dll.config
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\bin\RapidWebTest.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\bin\RapidWebTest.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\bin\Persistent.Entities.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\bin\PersistentManager.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\bin\PersistentManager.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\bin\Persistent.Entities.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\obj\Debug\RapidWebTest.csprojResolveAssemblyReference.cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\obj\Debug\RapidWebTest.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidWebTest\obj\Debug\RapidWebTest.pdb

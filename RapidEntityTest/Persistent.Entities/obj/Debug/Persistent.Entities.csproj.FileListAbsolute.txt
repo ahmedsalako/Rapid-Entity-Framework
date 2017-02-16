@@ -68,3 +68,10 @@ C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\bin\Debug\P
 C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
 C:\projects\rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb
 C:\projects\Rapidentityframework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.csprojResolveAssemblyReference.cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\Persistent.Entities\bin\Debug\Persistent.Entities.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\Persistent.Entities\bin\Debug\PersistentManager.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.csprojResolveAssemblyReference.cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\RapidEntityTest\Persistent.Entities\obj\Debug\Persistent.Entities.pdb

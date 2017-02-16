@@ -1,0 +1,7 @@
+C:\projects\rapidbranches\Rapid-Entity-Framework\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\UnitTestProject\bin\Debug\PersistentManager.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\UnitTestProject\bin\Debug\PersistentManager.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\UnitTestProject\obj\Debug\UnitTestProject.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache

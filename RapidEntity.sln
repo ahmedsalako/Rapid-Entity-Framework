@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Entities", "Rapi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidWebTest", "RapidWebTest\RapidWebTest.csproj", "{9527D1E7-EEA1-4A20-AE7F-A6A31C7FC49B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{014B3F50-C7A6-41F1-93CF-8B09167925D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{9527D1E7-EEA1-4A20-AE7F-A6A31C7FC49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9527D1E7-EEA1-4A20-AE7F-A6A31C7FC49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9527D1E7-EEA1-4A20-AE7F-A6A31C7FC49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014B3F50-C7A6-41F1-93CF-8B09167925D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014B3F50-C7A6-41F1-93CF-8B09167925D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014B3F50-C7A6-41F1-93CF-8B09167925D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014B3F50-C7A6-41F1-93CF-8B09167925D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +97,6 @@ Global
 		{65F879F4-81B8-44F1-9074-AF8EF0D462CA} = {E2F34103-3B3A-4824-8FF0-CB63962A1038}
 		{AAB50272-D29A-4085-A9C4-DDE5D86D550E} = {E2F34103-3B3A-4824-8FF0-CB63962A1038}
 		{9527D1E7-EEA1-4A20-AE7F-A6A31C7FC49B} = {019D1197-39E6-401A-ADF0-0E2879CFA8D8}
+		{014B3F50-C7A6-41F1-93CF-8B09167925D4} = {4C1D754F-3119-438C-8FD6-6F7A709FCEE1}
 	EndGlobalSection
 EndGlobal

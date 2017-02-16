@@ -3,3 +3,8 @@ C:\projects\rapidentityframework\PersistentManager\bin\Debug\PersistentManager.p
 C:\projects\rapidentityframework\PersistentManager\obj\Debug\PersistentManager.dll
 C:\projects\rapidentityframework\PersistentManager\obj\Debug\PersistentManager.pdb
 C:\projects\Rapidentityframework\PersistentManager\obj\Debug\PersistentManager.csprojResolveAssemblyReference.cache
+C:\projects\rapidbranches\Rapid-Entity-Framework\PersistentManager\bin\Debug\PersistentManager.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\PersistentManager\bin\Debug\PersistentManager.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\PersistentManager\obj\Debug\PersistentManager.dll
+C:\projects\rapidbranches\Rapid-Entity-Framework\PersistentManager\obj\Debug\PersistentManager.pdb
+C:\projects\rapidbranches\Rapid-Entity-Framework\PersistentManager\obj\Debug\PersistentManager.csprojResolveAssemblyReference.cache
